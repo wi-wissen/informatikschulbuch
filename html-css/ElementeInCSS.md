@@ -31,45 +31,31 @@ Element {
 }
 ```
 
-Nach dem das Element benannt wurde (etwa `body` oder `h1`), wird mit den geschweiften Klammern `{}` Beginn und Ende der Eigenschaften für das Element angezeigt. mit `Attribut1: Attributwert1` wird dem Attribut ein Wert zugewiesen. Das Semikolon `;` beendet die aktuelle Zuweisung und ermöglicht eine weitere.
+Nach dem das Element benannt wurde (etwa `body` oder `h1`), wird mit den geschweiften Klammern `{}` Beginn und Ende der Eigenschaften für das Element angezeigt. mit `Attribut1: Attributwert1` wird dem Attribut1 der Attributwert1 zugewiesen. Das Semikolon `;` beendet die aktuelle Zuweisung und ermöglicht eine weitere.
 
 ## Elemente adressieren
 
-In obigen Beispiel haben wir alle Überschriften `h1` grün gefärbt. Oft ist das nicht gewollt und man möchte nur spezielle Elemente ansprechen. Dafür gibt es zwei Möglichkeiten:
-
-## `class`
+In obigen Beispiel haben wir alle Überschriften `h1` grün gefärbt. Oft ist das nicht gewollt und man möchte nur spezielle Elemente ansprechen. Dafür verwenden wir folgende Schreibweise: 
 
 ```html
-<h1 class="gruen">grüne Überschrift</h1>
+<h1 class="besonders">grüne Überschrift</h1>
 ```
 
 ```css
-.gruen {
+.besonders {
 	color:green;
 }
 ```
 
-Hier werden nur alle Überschriften grün gefärbt, welche bei dem Attribut `class` den Attrributwert `gruen` haben.
+Hier werden nur alle Überschriften grün gefärbt, welche bei dem Attribut `class` den Attrributwert `besonders` haben.
 
-## `id`
-
-```html
-<h1 id="top">grüne Überschrift</h1>
-```
-
-```css
-#top {
-	color:green;
-}
-```
-
-Hier darf es nur ein einziges Element geben. Dieses wird ähnlichen Beispiel mit `id` gekennzeichnet. Dadurch wird etwa derhindert, dass mehrmals eine oberste Überschrift ausgerufen wird.
-
-Beachte, dass einmal das Element direkt genannt wurde, sowie diesen entweder ein `.` oder `#` vorgestellt wurde.
-
-t> Übernimm das Beispiel `class`  in den [Editor](https://apps.wi-wissen.de/html-css-js-editor/). 
+t> Übernimm das Beispiel in den [Editor](https://apps.wi-wissen.de/html-css-js-editor/). 
 
 t> Ändere die Farbe von grün auf rot.
+
+i> Besonders beim Programmieren mit JavaScript ist es wichtig genau ein eindeutiges Element anzusprechen. Dafür verwendet man `<h1 id="top">` dies spricht man in CSS etwa mit `#top` an. Der Attributwert zu `id` muss auf der gesamten Seite eindeutig sein!
+
+
 
 ## HTML und CSS zusammenfügen.
 
@@ -87,7 +73,39 @@ Um die CSS-Befehle mit dem HTML-Dokument zu verknüpfen gibt es zwei Möglichkei
 
 Hier wird ein HTML-Element namens style im `head`-Bereich des HTML-Dokuments geöffnet. Darin kann CSS geschrieben werden.
 
-### Aus HTML auf CSS verweisen
+Hier ist ein vollständiges Beispiel:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<title>Titel der Webseite</title>
+    <style> 
+      h1 {
+          color:green;
+      } 
+	</style>
+	<!-- weitere Kopfinformationen -->
+	<!-- Kommentare werden im Browser nicht angezeigt. -->
+  </head>
+  <body>
+	<!-- erst ab hier wird der Inhalt auch im Browser angezeigt. -->
+	<h1>grüne Überschrift</h1>
+    <p>Inhalt der Webseite</p>
+  </body>
+</html>
+```
+
+t> Erstelle im head deiner Filmwebseite ein CSS-Element.
+
+t> Übernimm darin das Beispiel und prüfe, dass deine Überschriften 1. Grades (`h1`) grün geworden sind. 
+
+
+
+## Aus HTML auf CSS verweisen
+
+i> Folgendes Vorgehen ist praktisch, sofern du dein CSS nicht nur auf einer Seite sondern auf allen Seiten deiner Webseite einbinden möchtest.
 
 ```html
 <link href="css/style.css" rel="stylesheet">
@@ -95,6 +113,3 @@ Hier wird ein HTML-Element namens style im `head`-Bereich des HTML-Dokuments ge�
 
 Hier wird für die CSS-Befehle eine extra Datei namens style.css im Unterordner css abgelgt. (Beachte Kapitel Verweise in HTML)
 
-t> Erstelle im head deiner Filmwebseite ein CSS-Element.
-
-t> Übernimm darin das Beispiel und prüfe, dass deine Überschriften 1. Grades (`h1`) grün geworden sind. 

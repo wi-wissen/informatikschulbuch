@@ -23,6 +23,7 @@
       loadSidebar: true,
       subMaxLevel: 2,
       fallbackLanguages: ["de"],
+	  externalLinkTarget: '_blank',
       //themeColor: '#337ab7',
       search: {
 
@@ -68,7 +69,7 @@
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {
-            var url = 'https://github.com/wi-wissen/pms/blob/master/docs/' + vm.route.file
+            var url = 'https://github.com/wi-wissen/informatikschulbuch/blob/master/docs/' + vm.route.file
             var editHtml = '[Edit on GitHub](' + url + ')\n'
             return "<p style='text-align:right;'>{docsify-updated}<p>\n\n" + html
               + '\n\n----\n'

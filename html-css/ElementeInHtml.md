@@ -16,6 +16,8 @@ Sicher ist dir aufgefallen, dass sich Start- und Endtag nur durch den `/` unters
 
 t> [Aufgabe](https://apps.wi-wissen.de/html-css-js-editor/0JnZu)
 
+t> Notiere dir in deinem Hefter das Beispiel für eine Überschrift und markiere mit Pfeilen, welche Bedeutung die einzelnen Symbole haben.
+
 Es gibt einzelne Fälle, da möchte man zwar ein durch Start- und Endtag markiertes Element aufschreiben, hat aber keinen Text der ausgeben werden soll. In diesem Fall könntest du folgendes schreiben:
 
 ```html
@@ -29,3 +31,7 @@ Das geht zwar, ist aber den Entwicklern zu lang. Daher gibt es hier eine Kurzsch
 ```
 
 t> [Aufgabe](https://apps.wi-wissen.de/html-css-js-editor/v3SU3)
+
+
+
+t> Notiere in deinem Hefter, wie in HTML ein Zeilenumbruch gemacht wird.

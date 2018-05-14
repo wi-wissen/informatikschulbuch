@@ -1,6 +1,10 @@
 # Verweise
 
-Der Formatierte Text ist schon ein toller Erfolg. Aber so für eine typische Webseite fehlen eindeutig noch Links (Verweise auf andere Webseiten) oder Bilder! Tatsächlich sind technisch gesehen Bilder und Links sehr ähnlich. Bei einem Link wird auf eine andere Webseite/PDF,Bild o.a. verwiesen und bei einem Bild wird auf ein Bild verwiesen, welches direkt in unsere HTML-Webseite eingebunden wird. (Neben Bildern können wir auch Videos, Ton, PDF Dokumente und sogar ganze Karten einbinden, das sind aber schon kniffligere Themen.)
+In diesem Kapitel wollen wir uns ansehen, wie wir von formatierten Text zu einer tatsächlichen Webseite gelangen. Dazu gehören auf jeden Fall das Setzen von Links und das einbinden von Bildern.
+
+Das wir beides in diesem Kapitel behandeln ist kein Zufall. In beiden Fällen müssen wir den Browser nämlich anweisen noch eine weitere Datei zu betrachten. Entweder zeigen wir ihm die nächste HTML-Datei oder eine Bilddatei, die er gleich einbinden soll.
+
+i> Neben Bildern können wir auch Videos, Ton, PDF Dokumente und sogar ganze Karten einbinden, das sind aber schon kniffligere Themen.)
 
 ## Aufbau eines Verweises
 
@@ -19,7 +23,7 @@ https://apps.wi-wissen.de/lehrunterlagen.php
     Fall, dass der Server die Seite noch berechnen muss, ehe er die 
    Webseite an den Browser ausliefern darf.
 
-t> Gib für folgende Domain an, was die einzelnen Bestandteile bedeuten: 
+t> Notiere die folgende Domain in deinen Hefter und gib an, was die einzelnen Bestandteile bedeuten: 
 
 ```
 https://lops-leipzig.de/schule/about_us.html
@@ -47,11 +51,13 @@ img/bird.jpg
 
 Du siehst, dieser relative Verweis ist auch viel kürzer und erpart und ein wenig Schreibarbeit. Um zu der Datei zu gelangen soll der Browser zuerst in den Ordner `img` gehen und anschließend das Bild `bird.jpg` abrufen. 
 
-t> Notiere dir, was ein relativer und was ein aboluster Verweis (Adresse) ist.
+i> Der Ordner `..` weißt den Browser einen Ordner über den aktuellen Ordner zu gehen. und mit `/` geht es ganz nach oben in das Wurzelverzeichnis oder hier bekannt als Domainname mit Domainendung.
+
+t> Notiere in deinem Hefter, was ein relativer und was ein aboluster Verweis (Adresse) ist.
 
 t>  Gib ein Beispiel, wann eine absolute Adresse im Internet verwendet werden muss.
 
-t>  Gib ein Biespiel, wann eine relative Adresse verwendet werden kann. Begründe den Vorteil in dieser Situation.
+t>  Gib ein Beispiel, wann eine relative Adresse verwendet werden kann. Begründe den Vorteil in dieser Situation.
 
 ## Links
 
@@ -65,7 +71,7 @@ Hier haben wir etwas Neues. Bisher kannten wir nur `<a>WIssen</a>`. Nun steht im
 
 Da es den Link genauer beschreibt, sagt man auch `href` ist eine Eigenschaft des Links. Bei HTML heißt Eigenschaft Attribut. `"https://wi-wissen.de/"` ist der Wert des Attributes (Attributwert), welcher in Anführungszeichen geschrieben wird.
 
-t> Notiere, woher du diese Idee bereits kennst.
+t> Notiere in deinem Hefter was Attribute in HTML sind. Es könnte praktisch sein einen Link als Beispiel mit aufzuschreiben.
 
 ## Bilder
 
