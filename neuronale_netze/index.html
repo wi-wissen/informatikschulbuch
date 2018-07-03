@@ -69,7 +69,7 @@
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {
-            var url = 'https://github.com/wi-wissen/informatikschulbuch/blob/master/neuronale-netze/' + vm.route.file
+            var url = 'https://github.com/wi-wissen/informatikschulbuch/blob/master/neuronale_netze/' + vm.route.file
             var editHtml = '[Edit on GitHub](' + url + ')\n'
             return "<p style='text-align:right;'>{docsify-updated}<p>\n\n" + html
               + '\n\n----\n'
