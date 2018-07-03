@@ -101,4 +101,4 @@ i> [Beispiel](https://apps.wi-wissen.de/html-css-js-editor/TiOBL)
 
 s> Super! Du hast die Grundlagen in CSS gelegt.
 
-t> Wende all dein Wissen und Geschick aus den vorangegangenen Kapiteln auf das Erstellen einer Filmwebseite in Aufgabe 7-9 an. ([Lehrunterlagen](http://apps.wi-wissen.de/lehrunterlagen.php))
+t> Wende all dein Wissen und Geschick aus den vorangegangenen Kapiteln auf das Erstellen einer [Filmwebseite](filmwebseite.md) in Aufgabe 7-9 an.

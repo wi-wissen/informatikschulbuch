@@ -40,4 +40,4 @@ t> Untersuche, was die Tags p und title bewirken.
 
 s> Glückwunsch! Du kennst nun die Grundlagen von HTML!
 
-t> Wende all dein Wissen und Geschick aus den vorangegangenen Kapiteln auf das Erstellen einer Filmwebseite in Aufgabe 1-6 an. ([Lehrunterlagen](http://apps.wi-wissen.de/lehrunterlagen.php))
+t> Wende all dein Wissen und Geschick aus den vorangegangenen Kapiteln auf das Erstellen einer [Filmwebseite](filmwebseite.md) in Aufgabe 1-6 an.
