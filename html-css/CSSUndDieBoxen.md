@@ -4,7 +4,7 @@
 
 ## Entwicklerwerkzeuge im Browser
 
-Bisher haben einzelne Elemente von Webseiten gestaltet. Hier untersuchen wir die Beziehung der Elemente untereinander:
+Bisher haben wir einzelne Elemente von Webseiten gestaltet. Hier untersuchen wir die Beziehung der Elemente untereinander:
 
 *Mozilla Firefox 53*: Drücke <kbd>Strg</kbd> + <kbd>Umschalt</kbd> + <kbd>C</kbd>
 
@@ -16,7 +16,7 @@ In den Entwicklerwerkzeugen kannst du einen Blick hinter die Kulissen werfen und
 
 t> Fahre über verschiedene Bereiche der Webseite.
 
-Du wirst feststellen, dass diese in farbige Kästen getaucht werden. Diese dienen dazu, um dir bei der Orientierung zu helfen.
+Du wirst feststellen, dass diese in farbige Kästen getaucht werden. Diese dienen dazu, dir bei der Orientierung zu helfen.
 
 t> Fahre nun mit der Maus über diesen Textabschnitt. 					
 
@@ -42,7 +42,7 @@ Im unteren rechten Bereich findest du ein Modell der Box:
 
 t> Ermittle die Bedeutung der CSS-Attribute margin, padding und border.
 
-i> Tipp: Ein Englischwörterbuch oder die ausführliche Dokumentation helfen dir notfalls
+i> Tipp: Ein Englischwörterbuch oder die ausführliche Dokumentation helfen dir notfalls weiter.
 
 Experten: Verändere die CSS-Attribute der gegebenen Boxen mit dem Entwicklerwerkzeug.
 

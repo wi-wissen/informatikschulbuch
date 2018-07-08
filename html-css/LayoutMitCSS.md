@@ -9,7 +9,7 @@
 
 ### [Grid](https://wiki.selfhtml.org/wiki/CSS/Eigenschaften/grid)
 
-Grid zu deutsch Gitter wird über die gesamte Webseite oder einen Teil davon gelegt. Anschließend können daran Elemente ausgerichtet werden:
+Grid (zu deutsch Gitter) wird über die gesamte Webseite oder einen Teil davon gelegt. Anschließend können daran Elemente ausgerichtet werden:
 
 ![img](/img/10-1.png)
 
@@ -51,7 +51,7 @@ grid-template-rows: 1fr 2fr 1fr;
 
 Hier ist die mittlere Spalte doppelt so breit wie die anderen beiden. Du hättest auch `25% 50% 25%` schreiben können.
 
-Absolute Breiten gehen natürlich auch, da Bildschirme sehr verschiedene Auflösungen und Pixeldichten haben musst du hier genau nachdenken. Absolute Größen sind etwa sinnvoll, wenn du eine Navigationsliste erstellst und diese unabhängig von den anderen Elemente eine feste Höhe haben soll.
+Absolute Breiten gehen natürlich auch, da Bildschirme sehr verschiedene Auflösungen und Pixeldichten haben, musst du hier genau nachdenken. Absolute Größen sind etwa sinnvoll, wenn du eine Navigationsliste erstellst und diese unabhängig von den anderen Elemente eine feste Höhe haben soll.
 
  
 
@@ -80,13 +80,13 @@ main {
 }
 ```
 
-An den beiden obigen Beispielen siehst du gut eine Kurzschribweise: Erstreckt sich ein Element nur innerhalb einer Spalte oder Zeile so reicht `grid-row` bzw. `grid-column`. Soll es mehrere umfassen wird mit `–start` und `–end` gearbeitet. Es gibt noch weitere Schreibweisen, die im Endeffekt zum gleichen Ergebnis führen.
+An den beiden obigen Beispielen siehst du gut eine Kurzschreibweise: Erstreckt sich ein Element nur innerhalb einer Spalte oder Zeile, so reicht `grid-row` bzw. `grid-column`. Soll es mehrere umfassen, wird mit `–start` und `–end` gearbeitet. Es gibt noch weitere Schreibweisen, die im Endeffekt zum gleichen Ergebnis führen.
 
 t> Übernimm die CSS-Befehle in den [Editor](https://apps.wi-wissen.de/html-css-js-editor/13pRy)
 
 t> Schreibe selbst das CSS für `nav`
 
-t> Übe deine Fähigkeiten indem du im [Grid Garden](http://cssgridgarden.com/#de) die Pflanzen bis Level 6 wässerst.
+t> Übe deine Fähigkeiten, indem du im [Grid Garden](http://cssgridgarden.com/#de) die Pflanzen bis Level 6 wässerst.
 
 t> Experten: Schaffe möglichst viele Level!
 

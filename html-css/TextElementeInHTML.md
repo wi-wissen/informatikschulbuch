@@ -37,7 +37,7 @@ t> [Aufgabe 2](https://apps.wi-wissen.de/html-css-js-editor/WDSWN)
 
 ## Zeilenumbrüche
 
-Vielleicht hast du schon bemerkt, dass Eine Webseite den Text nicht umbricht, wenn du die Enter-Taste im Quelltext verwendest. Also verwenden wir ein nichtdruckbares Zeichen, um eine neue Zeile einzuleiten. Da wir das eben nicht schreiben können, verwenden wir ein leeres Element und kürzen dieses ab:
+Vielleicht hast du schon bemerkt, dass eine Webseite den Text nicht umbricht, wenn du die Enter-Taste im Quelltext verwendest. Also verwenden wir ein nichtdruckbares Zeichen, um eine neue Zeile einzuleiten. Da wir das eben nicht schreiben können, verwenden wir ein leeres Element und kürzen dieses ab:
 
 ```html
 1. Zeile <br /> 2. Zeile

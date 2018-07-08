@@ -1,10 +1,10 @@
 # Elemente in CSS
 
-Bisher sahen unsere Webseiten noch alle sehr gleich aus. Es wird Zeit frischen Wind reinzubringen und unsere Webseiten nach unseren Wünchen zu stylen!
+Bisher sahen unsere Webseiten noch alle sehr gleich aus. Es wird Zeit frischen Wind reinzubringen und unsere Webseiten nach unseren Wünschen zu stylen!
 
 ## Grundlagen
 
-Um abweichend von dem Browser vorgeschlagenen Aussehen, dies anzupassen gibt es die CSS-Sprache. Mit dieser wird beschrieben, wie die Webseite aussehen soll:
+Um abweichend von dem Browser vorgeschlagenen Aussehen ein anderes zu erreichen, gibt es die CSS-Sprache. Mit dieser wird beschrieben, wie die Webseite aussehen soll:
 
 ```html
 <h1>grüne Überschrift</h1>
@@ -20,7 +20,7 @@ t> Gib obiges Beispiel in den [Editor](https://apps.wi-wissen.de/html-css-js-edi
 
 In obigen Beispiel wurde die Überschrift anstelle der vom Browser vorgeschlagenen schwarzen Farbe in grün geschrieben.
 
-Dies liegt daran, dass wir in CSS die Eigenschaft `color` mit dem Eigenschaftswert `green` belegt haben. (Da green ein Schlüsselwort ist muss es nicht, wie in ähnlichen Situationen, in Anführungszeichen gesetzt werden.
+Dies liegt daran, dass wir in CSS die Eigenschaft `color` mit dem Eigenschaftswert `green` belegt haben. (Da green ein Schlüsselwort ist, muss es nicht, wie in ähnlichen Situationen, in Anführungszeichen gesetzt werden.
 
 Grundsätzlich ist eine HTML-Element-Beschreibung in CSS immer wie folgt aufgebaut:
 
@@ -31,11 +31,11 @@ Element {
 }
 ```
 
-Nach dem das Element benannt wurde (etwa `body` oder `h1`), wird mit den geschweiften Klammern `{}` Beginn und Ende der Eigenschaften für das Element angezeigt. mit `Attribut1: Attributwert1` wird dem Attribut1 der Attributwert1 zugewiesen. Das Semikolon `;` beendet die aktuelle Zuweisung und ermöglicht eine weitere.
+Nach dem das Element benannt wurde (etwa `body` oder `h1`), wird mit den geschweiften Klammern `{}` Beginn und Ende der Eigenschaften für das Element angezeigt. Mit `Attribut1: Attributwert1` wird dem Attribut1 der Attributwert1 zugewiesen. Das Semikolon `;` beendet die aktuelle Zuweisung und ermöglicht eine weitere.
 
 ## Elemente adressieren
 
-In obigen Beispiel haben wir alle Überschriften `h1` grün gefärbt. Oft ist das nicht gewollt und man möchte nur spezielle Elemente ansprechen. Dafür verwenden wir folgende Schreibweise: 
+In obigen Beispiel haben wir alle Überschriften `h1` grün gefärbt. Oft ist das nicht gewollt, und man möchte nur spezielle Elemente ansprechen. Dafür verwenden wir folgende Schreibweise: 
 
 ```html
 <h1 class="besonders">grüne Überschrift</h1>
@@ -59,7 +59,7 @@ i> Besonders beim Programmieren mit JavaScript ist es wichtig genau ein eindeuti
 
 ## HTML und CSS zusammenfügen.
 
-Um die CSS-Befehle mit dem HTML-Dokument zu verknüpfen gibt es zwei Möglichkeiten. Beide Möglichkeiten werden im `head` des HTML-Dokumentes umgesetzt, da die Befehle ja nicht angezeigt, sondern ausgeführt werden sollen.
+Um die CSS-Befehle mit dem HTML-Dokument zu verknüpfen, gibt es zwei Möglichkeiten. Beide Möglichkeiten werden im `head` des HTML-Dokumentes umgesetzt, da die Befehle ja nicht angezeigt, sondern ausgeführt werden sollen.
 
 ### CSS in HTML einbetten
 

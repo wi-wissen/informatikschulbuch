@@ -20,7 +20,7 @@ Eine vollständige Webseite sieht nämlich wie folgt aus:
 </html>
 ```
 
-Um das zu verstehen, müssen wir unser gesamtes Wissen zusammennehmen und noch einiges Neues Lernen:
+Um das zu verstehen, müssen wir unser gesamtes Wissen zusammennehmen und noch einiges Neue lernen:
 
 Wir haben schon gelernt, dass es Rechtecke gibt, welche wir ineinanderschachteln können. Das ist auch hier der Fall. Es gibt ganz große Rechtecke, von denen wir bisher noch nichts wussten.
 
@@ -34,7 +34,7 @@ i> [Hilfe zu Notepad++](https://youtu.be/uuXvdouR-Hw)
 
 t> Öffne Notepad++
 t> Kopiere den Text aus dem Beispiel in Notepad++
-t> Speichere den Text als "index.html" in deinem H-Laufwerk. Achte  unbedingt darauf, dass kein ".txt" Am Ende steht. Ändere dazu die Dateieindung beim Speichern.
+t> Speichere den Text als "index.html" in deinem H-Laufwerk. Achte  unbedingt darauf, dass kein ".txt" am Ende steht. Ändere dazu die Dateiendung beim Speichern.
 t> Öffne dein gespeichertes Dokument im Browser (Doppelklick oder reinziehen).
 t> Untersuche, was die Tags p und title bewirken.
 

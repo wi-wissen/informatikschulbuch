@@ -10,13 +10,13 @@ Beispiel: <https://www.themoviedb.org/movie/118340-guardians-of-the-galaxy>
 
 # 1. Vorbereitung
 
-i> Bist du nicht in der Schule kannst du den Ordner hier als zip-Datei herunterladen.
+i> Bist du nicht in der Schule, kannst du den Ordner hier als zip-Datei herunterladen.
 
 1. Kopiere den Ordner html aus diesem Verzeichnis in dein H-Laufwerk. 
 2. Öffne das Programm Notepad++ im Startmenü
 3. Speichere ein leeres Dokument unter dem Dateinamen `index.html` im eben kopierten html-Ordner. 
 
-w> Achte darauf nicht ausversehen die Endung `txt` zu verwenden! 
+w> Achte darauf, nicht ausversehentlich die Endung `txt` zu verwenden! 
 
 # 2. Text auf der Webseite
 
@@ -24,7 +24,7 @@ w> Achte darauf nicht ausversehen die Endung `txt` zu verwenden!
 
 2. Erstelle ein gültiges HTML-Dokument. 
 
-3.  Gib im `head ` den Title des Filmes an 
+3.  Gib im `head ` den Titel des Filmes an. 
 
 4. Schreibe in den `body ` die Filmbeschreibung. (Denke dir diese selbst aus oder kopiere dir diese von [themoviedb.org](https://www.themoviedb.org/).
 
@@ -48,7 +48,7 @@ i> Ein Abschnitt heißt im Englischen „paragraph“. Er wird als `<p></p>` abg
 
 1. Erstelle unter dem Filmtitel eine Unterüberschrift mit dem Text „Handlung“
 
-2. Formatiere alle Namen kursiv
+2. Formatiere alle Namen kursiv.
 
 3.  Erstelle unter der Beschreibung einen neuen Abschnitt mit dem Text `Webseite erstellt von Günther`. 
 
@@ -77,7 +77,7 @@ Experten: Gib der Tabelle eine Spaltenüberschrift.
 
 1. Lege im Ordner html einen Ordner img an und speichere darin das Filmposter und ein Filmbackdrop (Bild aus dem Film) ab.
 
-2. Füge das Filmposter nach dem filmtitel ein. 
+2. Füge das Filmposter nach dem Filmtitel ein. 
 
 i> Nutze dazu wieder [themoviedb.org](https://www.themoviedb.org/)
 
@@ -117,6 +117,6 @@ i> Verwende [background-blend-mode](https://wiki.selfhtml.org/wiki/CSS/Eigenscha
 
 # 10. Ausrichten der Webseite
 
-Richte die Elemente neu aus. Orientiere dich dabei an dem Lösungsvorschlag. Gern kannst du auch ein eigenes Layout wählen.
+Richte die Elemente neu aus. Orientiere dich dabei an den Lösungsvorschlag. Gern kannst du auch ein eigenes Layout wählen.
 
 Expertenaufgabe: Gestalte die Filmwebseite nach deinem persönlichen Geschmack. 
