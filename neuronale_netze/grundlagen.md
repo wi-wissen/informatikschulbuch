@@ -14,6 +14,8 @@ Die folgenden Abschnitte lassen sich wie folgt gliedern:
 
 **Daten vorbereiten:**
 
+In diesem Abschnitt lernst du, wie wir die Daten so aufbereiten können, dass ein künstliches neuronales Netz überhaupt Strukturen vorfinden kann, aus welchen es dann Regeln lernen kann.
+
 1. Eingabe
 2. Bild in Zahlenwerten
 3. Bild in normierten Zahlenwerten
@@ -26,17 +28,21 @@ Die folgenden Abschnitte lassen sich wie folgt gliedern:
 
 **Das neuronale Netzwerk seine Arbeit machen lassen:**
 
+Hier verwenden wir die erzeugten Daten und lassen das künstliche neuronale Netz die herausgearbeiteten Strukturen zu den gewünschten Ergebnissen lernen. Grob gesagt lernt das künstliche neuronale Netz, dass sofern eine gewissen Menge an Merkmalen (Strukturen) vorliegt, welches Bild es sein muss. 
+
 1. Fully Connected Layer
 2. Aktivierungsfunktion
 3. Normierung
 
-Du wir werden uns zuerst sehr lang damit beschäftigen, wie Daten aufbereitet sein müssen und erst dann das neuronale Netz wirklich nutzen.
+
+
+Du siehst, wir werden uns zuerst sehr lang damit beschäftigen, wie Daten aufbereitet sein müssen und erst dann das neuronale Netz wirklich nutzen.
 
 
 
 ### Eingabe
 
-Wir werden für das Beispiel mit dem folgenden bild arbeiten:
+Wir werden für das Beispiel mit dem folgenden Bild arbeiten:
 
 ![muster-0](img/muster-0.png)
 
@@ -86,13 +92,15 @@ Das Ergebnis für alle Elemente können wir dann in die Feauture Map eingetragen
 
 ![muster-5](img/muster-5.png)
 
-Nur Bahnhof verstanden? Stell dir vor du hast ein Foto vom Strand gemacht und suchst alle roten Regenschirme. Also legst du eine halbdurchsichtige rote Folie darüber und schon siehst du nur noch rote Regenschirme, der Rest ist ganz grau geworden. Das gleiche haben wir hier mathematisch gemacht. Wie genau siehst du ausführlicher in der anschließenden Aufgabe.
+Nur Bahnhof verstanden? Stell dir vor du hast ein Foto vom Strand gemacht und suchst alle roten Regenschirme. Also legst du eine halbdurchsichtige rote Folie darüber und schon siehst du nur noch rote Regenschirme, der Rest ist ganz grau geworden. Das gleiche haben wir hier mathematisch gemacht.
 
 ### ReLU (Reacitivied Linaer Unit) Aktivierungsfunktion 
 
 Und erneut normieren wird. Diesmal lassen wir alle negativen Werte weg: 
 
 ![muster-6](img/muster-6.png)
+
+Die grauen Werte sind neu. DIe benötigen wir für die nächste Aufgabe.
 
 ### Max pool
 
@@ -124,7 +132,40 @@ Grün steht für `gestreift`, `glatt` ist gelb und die `einzelne Linie` ist blau
 
 Sehen wir uns die Berechnung für gestreift an: Wir nehmen den ersten Wert `1,0` und multiplizieren diesen mit den ersten gelben Wert `0,5` , wiederholen das für alle Werte einschließlich dem BIAS und summieren die Ergebnisse (wie in Feauture Map beschrieben).
 
-i> Das ist tatsächlich schon die ganze Magie des neuronalen Netzwerks. Sicher kennst du aus Medien so tolle Darstellungen mit verschiedenen Schichten. [Hier](/neuronale_netze/assetes/Fully Connected Layer.pdf) ist der Prozess grafisch mit verschiedenen Ebenen erklärt.
+Das ist tatsächlich schon die ganze Magie des neuronalen Netzwerks. Sicher kennst du aus Medien so tolle Darstellungen mit verschiedenen Schichten. Diese werden wir uns im Folgenden ansehen. Dies ist aber nur eine hübschere Darstellungsform: 
+
+#### graphische Darstellung zweier Fully Connected Layers
+Zur besseren Übersicht nehmen wir hier einfach ein Bild, welches aus nur zwei Pixeln besteht. Wir wollen ermitteln, ob es beschrieben oder komplett leer ist. Mit nur zwei Pixeln müssen wir die Daten nicht weiter aufbereiten und können sofort durchstarten:
+![fcl-1](img/fcl-1.png)
+
+Legen wir also zwei sogenannte Layer an: 
+![fcl-2](img/fcl-2.png)
+An dieser Abbildung wird auch deutlich, warum es Fully Connected Layer heißt: Ein jeder Knoten aus einem Layer (Schicht) ist mit jeden anderen Knoten der nachfolgenden Schicht verbunden.
+i> `Layer 0` ist die Eingabe und `Layer 3` die Ausgabe. Beide werden gemeinhin nicht mitgezählt.
+
+Legen wir für den Anfang zufällig fest, welche Kantengewichte und Bias es geben:
+![fcl-3](img/fcl-3.png)
+
+i> Die hier angeschriebenen Zahlen sind das was wir im letzten Abschnitt in die farbigen Linien geschrieben haben.
+
+Jetzt führen wir die schon eingangs beschriebene Berechnung durch:
+![fcl-4](img/fcl-4.png)
+
+Wir rechnen also`1*1 + 0*1 = 1 `. Da `1` kleiner als `2` ist, reicht dies nicht aus, um den Knoten zu "aktivieren". In unserem Rechenbeispiel erhält er daher den Wert 0.
+
+i> Im [Video](https://youtu.be/cxCzhFVyUdw?t=46s) wurde dies durch zwei notwendige Tennisbällt (Bias) dargestellt. Mathematisch haben wir dies eingangs wie folgt gelöst: `1*1 + 0*1 + 2*-1 = -1 `. Nanu, wo kommt denn `2*-1` her?. `2` ist der Bias von`Layer 1`. Klar. Und für `Layer 0` setze ich immer den Bias von `-1`. Und schon erhalte ich nur ein positives Ergebnis, wenn der Bias von `Layer 1` kleiner als das Summenprodukt der einzelnen Knoten und Kanten ist. Sicher hast du schon eine Idee, was wir mit negativen Werten machen würden. Ob du richtigst liegt erfährst du im nächsten Abschnitt.
+
+Mit diesem Wissen können wir noch den `Layer 2` ausrechen:
+
+![fcl-5](img/fcl-5.png)
+
+Unser Ergebnis ist `0`. Das ist unschön, da wir eigentlich eine `1` für bemalt und eine `0` für noch leer hätten. Unser künstliches neuronales Netz ist also noch nicht richtig trainiert.
+
+t> Was muss geändert werden, damit unser künstliches neuronales Netz die Bilder richtig erkenn?
+
+*Spoiler Alert: Ändere den Bias von `Layer 2` einfach auf `1`.*
+
+
 
 ### Aktivierungsfunktion
 
