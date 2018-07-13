@@ -4,7 +4,7 @@ i> Die technische Umsetzung findet hier in JavaScript mit [TensorFlow.js](https:
 
 ## Eine Funktion anhand gegebener Werte ermitteln
 
-Das erste Beispiel ist eins ehr einfachches, welches ausschließlich dazu dient das Grundkonzept von TensorFlow.js zu verstehen.
+Das erste Beispiel ist ein sehr einfaches, welches ausschließlich dazu dient das Grundkonzept von TensorFlow.js zu verstehen.
 
 Das fertige Beispiel findest du auf **[apps.wi-wissen.de](https://apps.wi-wissen.de/neuronale-netze/polynomial-regression-core/)**.  Sofern du [node.js](https://nodejs.org/de/) und [yarn](https://yarnpkg.com/en/) installiert hast, kannst du dir den Quelltext auch selbst herunterladen:
 
@@ -15,17 +15,17 @@ yarn
 yarn watch
 ```
 
-Stell dir vor du hast für ein Experiment in Physik die folgende Zielfunktion berechnet:
+Stell dir vor du machst ein Experiment in Physik, für das folgende Gesetzmäßigkeit gilt:
 
 ```
 y = -8x^3 + -0.2x^2 + 0.9x + 0.5
 ```
 
-Dazu hast du bei deinem Experiment aber nur die folgenden Werte gemessen:
+Du hast bei deinem Experiment aber nur die folgenden Werte gemessen:
 
 ![kurve-1](img/kurve-1.png)
 
-Da wir wissen, dass Die Formel die Funktion die Form ` y = ax^3 + bx^2 + cx + d`  hat legen wir vier Variabeln an und belegen diese mit zufälligen Werten:
+Da wir wissen, dass die Formel die Funktion der Form ` y = ax^3 + bx^2 + cx + d`  hat, legen wir vier Variabeln an und belegen diese mit zufälligen Werten:
 
 ```javascript
 const a = tf.variable(tf.scalar(Math.random()));
@@ -56,7 +56,7 @@ Unser erster Testlauf führt dann auch schon zu einem Ergebnis:
 
 ![kurve-2](img/kurve-2.png)
 
-Gut, also wir haben eine Funktion, aber da die Variabeln `a`,`b`,`c` und `d` geraten wurden eine gänzlich andere.
+Gut, also wir haben eine Funktion, aber da die Variabeln `a`,`b`,`c` und `d` geraten wurden, eine gänzlich andere Funktion.
 
 Also erstellen wir im nächsten Schritt eine Kostenfunktion, damit wir uns den blauen Punkten annähern:
 
@@ -66,6 +66,8 @@ function loss(predictions, labels) {
   return meanSquareError;
 }
 ```
+
+Diese Kostenfunktion kennst du bereits aus den Grundlagen.
 
 i> In dieser Funktion ziehen wird unsere aktuellen Werte `labels` von den blauen Punkten `prediction` ab und bilden davon das Quadrat. Letzteres sorgt dafür, dass es immer ein positiver Wert ist um den eine Abweichung besteht.
 
@@ -93,7 +95,7 @@ function train(xs, ys, numIterations = 75) {
 }
 ```
 
-i> Hierin legen wir fest, dass wir 75-mal trainieren wollen. Mit `predict(xs)` führen wir mit den aktuellen Variabeln die Berechnung nach unserer Formel durch und mit `loss(predsYs, ys)` bestimen wir die Abweichung und geben diese als Ergebnis zurück.
+i> Hierin legen wir fest, dass wir 75-mal trainieren wollen. Mit `predict(xs)` führen wir mit den aktuellen Variabeln die Berechnung nach unserer Formel durch und mit `loss(predsYs, ys)` bestimmen wir die Abweichung und geben diese als Ergebnis zurück.
 
 Und nach nur 75 Anläufen kann sich unser Ergebnis schon sehen lassen:
 
@@ -101,9 +103,7 @@ Und nach nur 75 Anläufen kann sich unser Ergebnis schon sehen lassen:
 
 i> Sicher ist dir aufgefallen, dass es noch immer eine kleine Abweichung zum richtigen Ergebnis gibt.
 
-w> Das war nur ein ganz einfaches Beispiel. Denn was wir hier gemacht haben war an einem Beispiel zu lernen. Würden wir jetzt das gleiche neuronale Netz auf eine andere Punktewolke loslassen, würde es kläglichst scheitern, da es ja nur an einer anderen trainiert wurde. Man spricht hier auch vom overfitting.
-
-## handgeschriebene Zahlen erkennen
+## Handgeschriebene Zahlen erkennen
 
 Das fertige Beispiel findest du auf **[apps.wi-wissen.de](https://apps.wi-wissen.de/neuronale-netze/mnist/)**.  Sofern du [node.js](https://nodejs.org/de/) und [yarn](https://yarnpkg.com/en/) installiert hast, kannst du dir den Quelltext auch selbst herunterladen:
 
@@ -123,7 +123,7 @@ Wir unterteilen dazu unsere handgeschriebenen Zahlen in zwei Mengen:
 * Trainingsmenge - hiermit werden wir trainieren.
 * Testmengen - hiermit werden wir testen, wie gut unser Training war.
 
-Dies ist ein sehr wichtiges Vorgehen, um das sogenannte Oberfitting, welches wir aus dem vorherigen Beispiel kennen zu vermeiden.
+Dies ist ein sehr wichtiges Vorgehen, um das sogenannte overfitting zu vermeiden. Beim overfitting funktioniert das Modell sehr gut für die gelernten Bilder, aber sehr schlecht für neue Bilder.
 
 ### Neuronales Netz benutzen
 
@@ -147,12 +147,12 @@ Folgender Einstellungen haben wir hier vorgenommen:
 * `inputShape` - Wir haben festgelegt, wie die Auflösung und die Bildtiefe (wieder schwarz/weiß) sein soll. 
 
 * `kernelSize` - Hier legen wir den Filter auf ein 5 × 5 Pixel großes Quadrat fest
-* `filters` - die Anzahl der Filter (bisher hatten wir der Einfachheit halber immer nur von   einem Filter gesprochen. Auch werden die Filter hier ähnlich wie die  - Variablen selbst erzeugt)
+* `filters` - die Anzahl der Filter (bisher hatten wir der Einfachheit halber immer nur von   einem Filter gesprochen. Auch werden die Filter hier ähnlich wie die Variablen selbst erzeugt)
 * `strides` - Wie weit wird der Filter verschoben (bisher hatten wir den Filter immer um ein Pixel verschoben)
 * `activation` - Aktivierungsfunktion (hier wieder ReLu))
 * `kernelInitializer` - Methode wie wir die Variablen des Filters zu Beginn belegen wollen
 
-Auch hier werden wir wieder, das Ausgangsbild verkleinern, um robuster zu werden (Max Pool). Folgender Befehl halbiert damit die Auflösung:
+Auch hier werden wir wieder das Ausgangsbild verkleinern, um robuster zu werden (Max Pool). Folgender Befehl halbiert damit die Auflösung:
 
 ```javascript
 model.add(tf.layers.maxPooling2d({
@@ -179,7 +179,7 @@ model.add(tf.layers.dense({
 
 
 
-`units` - Größe der Ausgabemenge (hier zehn, da die Ziffern 0-9) (In Grundlagen 3 da getreift, glatt und Linie)
+`units` - Größe der Ausgabemenge. Wir möchten hier 10 Neuronen. Dabei soll nur eins `1` und die anderen `0` werden, um anzuzeigen welche der Ziffern `0-9` die dargestellte ist. (In Grundlagen 3 da getreift, glatt und Linie)
 
 `kernelInitializer` - Wie legen wir die Variabeln zu Beginn zufällig fest.
 
@@ -204,7 +204,7 @@ model.compile({
 });
 ```
 
-Es ist sehr wichtig, dass wir die Bilder immer zu mehreren zum Trainieren geben, damit kein overfitting stattfindet. Auch muss die Reihenfolge immer anders sein, da sonst etwa immer das erste Bild als `1` erkannt werden könnte.
+Da  unsere Trainingsmenge nur ein kleine Teilmenge aller möglichen Bilder ist, kann es sein, dass unser gefundenes Minimum in einer neuen Teilmenge (da wo das künstliche neuronale Netz dann wirklich arbeiten soll) eher ein Berg ist. Daher unterteilen wir unsere Teilmenge in mehrere Teilmengen und lassen das küsntliche neuronale Netzwerk lernen sich in möglichst vielen Teilmengen ein gutes Tal zu suchen. Das erhöht die Wahrscheinlichkeit in einer neuen Teilmenge ebenfalls ein gutes Tal anzusteuern. Ähnlich einem erfahrenen Wandnerer bei Nebel.
 
 i> Wie genau dies eingestellt wird findest du in der offiziellen Dokumentation von [TensorFlow.js](https://js.tensorflow.org/tutorials/core-concepts.html) auf englisch ausführlich erklärt.
 

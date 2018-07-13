@@ -86,17 +86,17 @@ Legen wir hier den grauen Punk auf den ersten Wert des ursprünglichen Bildes:
 
 ![muster-4-5](img/muster-4-5.png)
 
-Jetzt multiplizieren wir einfach beiden Matrizen. Bitte was?! Okay, also wir nehmen die Zahlen die an der gleichen Stelle stehen multiplizieren diese und addieren anschließend das Ergebnis. Für die erste Zeile wäre das: `0 * 0 + -0,5*0 + 0,5*0 = 0`. Garnicht schwer? Gut mit ein wenig nachdenken kommen wir drauf, dass wie hier eigentlich nur `1 *-0,5 +1 * -0,5 = -1 ` rechnen müssen. Das Ergebnis tragen wir dann in der Feuture Map an die selbe Stelle wie in der vorherigen Abbildung. 
+Jetzt bilden von den beiden Matrizen des pro [Frobenius-Skalarprodukt](https://de.wikipedia.org/wiki/Frobenius-Skalarprodukt). Bitte was?! Okay, also wir nehmen die Zahlen die an der gleichen Stelle stehen multiplizieren diese und addieren anschließend das Ergebnis. Für die erste Zeile wäre das: `0 * 0 + -0,5*0 + 0,5*0 = 0`. Garnicht schwer? Gut mit ein wenig nachdenken kommen wir drauf, dass wie hier eigentlich nur `1 *-0,5 +1 * -0,5 = -1 ` rechnen müssen. Das Ergebnis tragen wir dann in der Feuture Map an die selbe Stelle wie in der vorherigen Abbildung. 
 
-Das Ergebnis für alle Elemente können wir dann in die Feauture Map eingetragen:
+Das Ergebnis für alle Elemente können wir dann in die Feauture Map eintragen. Dabei können wir den Rand aus dem zero-padding wieder entfernen:
 
 ![muster-5](img/muster-5.png)
 
 Nur Bahnhof verstanden? Stell dir vor du hast ein Foto vom Strand gemacht und suchst alle roten Regenschirme. Also legst du eine halbdurchsichtige rote Folie darüber und schon siehst du nur noch rote Regenschirme, der Rest ist ganz grau geworden. Das gleiche haben wir hier mathematisch gemacht.
 
-### ReLU (Reacitivied Linaer Unit) Aktivierungsfunktion 
+### ReLU (**Rectified** Linaer Unit) Aktivierungsfunktion 
 
-Und erneut normieren wird. Diesmal lassen wir alle negativen Werte weg: 
+Und wir normieren erneut. Diesmal lassen wir alle negativen Werte weg: 
 
 ![muster-6](img/muster-6.png)
 
@@ -118,7 +118,7 @@ Eigentlich gibt es keinen Grund das Bild weiterhin zweidimensional darzustellen.
 
 ![muster-8](img/muster-8.png)
 
-Neu hinzugekommen ist der BIAS. Auch Schwellenwert genannt. Vielleicht erinnert ihr euch noch an das Video, dort wurde erlärt, dass damit eine notwendige Menge zusammenkommen muss, ehe das "Neuron" feuert. Genau das ist auch hier der Fall.
+Neu hinzugekommen ist die Konstante `-1`, welche für die BIAS-Berechnung benötigt wird. Der BIAS wird auch Schwellenwert genannt. Vielleicht erinnert ihr euch noch an das Video, dort wurde erlärt, dass damit eine notwendige Menge zusammenkommen muss, ehe das "Neuron" feuert. Genau das ist auch hier der Fall.
 
 ### Fully Connected Layer
 
@@ -170,17 +170,17 @@ t> Was muss geändert werden, damit unser künstliches neuronales Netz die Bilde
 
 ### Aktivierungsfunktion
 
-Du erinnerst dich wir haben im letzten Kapitel das Bild mit einem Layer verknüpft und konnten folgendes Ergebnis errechnen:
+Du erinnerst dich: Wir haben im letzten Kapitel das Bild mit einem Layer verknüpft und konnten folgendes Ergebnis errechnen:
 
 ![muster-9-5](img/muster-9-5.png)
 
-Hier haben wir schon wieder einen negativen Wert. Das stört, daher lassen wir den wieder mit einer Aktivierungsfunktion verschwinden. Hier aber ein wenig vereinfachter ReLU. Die Summe bleibt zum vorherigen Beispiel bestehen:
+Hier haben wir schon wieder einen negativen Wert. Das stört, um Wahrscheinlichkeiten berechnen zu können, daher lassen wir den wieder mit einer Aktivierungsfunktion verschwinden. Hier aber ein wenig veränderter ReLU. Die Summe bleibt zum vorherigen Beispiel bestehen:
 
 ![muster-10](img/muster-10.png)
 
 ### Normierung
 
-Wurde schon erwähnt, wie gern der Mathematiker normiet? Das machen wir hier erneut: 
+Wurde schon erwähnt, wie gern der Mathematiker norminiert? Das machen wir hier erneut: 
 
 ![muster-11](img/muster-11.png)
 
@@ -204,7 +204,7 @@ Hö? Das hier kostet was? Nicht ganz: Insgesamt hat sich unser neuronales Netzwe
 
 ![muster-13](img/muster-13.png)
 
-Die Werte kommen daher, dass wir den errechneneten Wert vom Sollwert abgezogen haben und beides ins Quadrat genommen haben. Also etwa `(0,54-1)^2` (Ja, da kommt `2,11` raus. Das liegt daran, weil wir unterwegs so viel gerundet haben)
+Die Werte kommen daher, dass wir den errechneneten Wert vom Sollwert abgezogen haben und beides ins Quadrat genommen haben. Also etwa `(0,54-1)^2` (Ja, da kommt `2,11` raus. Das liegt daran, weil wir unterwegs so viel gerundet haben). Damit erhalten wir zum einen einen positiven Fehlerwert und zum anderen werden die Fehler verstärkt. Dadurch werden große Fehler härter bestraft als mehrere kleine Fehler.
 
 ### Und wie lernt das künstliche neuronale Netz jetzt?!
 
@@ -214,15 +214,17 @@ Am Ende unser Funktion haben wir Kosten berechnet. Und diese Kosten wollen wir m
 
 Was so einfach? Ja, so einfach. Eine kleine Funktion mit schlappen 30 Variabeln minimieren. 
 
-In Mathe hast du sicher gelernt, dass man zum Bestimmen einer Variable immer eine Funktion benötigt. Also bei 30 Variabeln auch 30 Funktionen. Genau aus diesem Grunde werden wir hier auch raten. Raten? Jupp, was anderes bleibt uns ja nicht übrig. 
+In Mathe hast du sicher gelernt, dass man zum Bestimmen einer Variable immer eine Gleichung benötigt. Also bei 30 Variabeln auch 30 Gleichungen. Genau aus diesem Grunde werden wir hier auch raten. Raten? Jupp, was anderes bleibt uns ja nicht übrig. 
+
+w> Bitte komm nicht auf die Idee, dass wir einfach 30 Bilder nehmen und damit 30 Gleichungen aufstellen müssten, die wir ja dann nach den 30 Variabeln auflösen könnten. Dies wäre nur in einer Welt möglich, wo unsere Gleichungen diese perfekt beschreiben. Da wir in unserem Modell aber vereinfachen mussten, sodass die Variabeln in den 30 Gleichungen nicht *exakt* aufgehen wird. Würden wir jetzt unser Modell auf die 30 Bilder optimieren, dass es alles *exakt* lösen könnte, dann würde an einem neuen Bild grandios scheitern. Dies nennt man overfitting.
 
 Etwas professioneller: Mithilfe passender Heuristiken werden wir mit vertretbarem Aufwand die Kostenfunktion möglichst weit reduzieren, sodass uns das Ergebnis so zuverlässig erscheint, dass wir damit arbeiten können.
 
-Bitte lasst sich kurz auf folgendes Gedankenexperiment ein: Du bist ein Geograph und möchtest in einem großen Gebirge wie etwa den Alpen den niedrigsten Punkt erreichen. Im Idealfall hast du einen Helikopter und überfliegst die gesamten Alpen. Damit ermittelst du zielsicher den niedrigsten Ort. Da das aber zu aufwendig ist, lässt du dich einfach irgendwo in den Alpen absetzen und versuchst den niedrigsten Punk so zu finden: Du rennst natürlich einfach nach unten. Bist du ganz unten angekommen, könnte dies der niedrigste Punkt sein. Aber es könnte auch einfach nur ein hoch gelegenes Tal sein, und hinter dem nächsten Berg liegt ein viel tieferes Tal oder gar eine Schlucht. Daher bist du gezwungen, von dem Tal wieder aufzusteigen und noch einige andere Täler auszuprobieren. Anschließend kehrst du zu dem Tal mit den niedrigsten Punkt zurück.
+Bitte lass dich kurz auf folgendes Gedankenexperiment ein: Du bist ein Geograph und möchtest in einem großen Gebirge wie etwa den Alpen den niedrigsten Punkt erreichen. Im Idealfall hast du einen Helikopter und überfliegst die gesamten Alpen. Damit ermittelst du zielsicher den niedrigsten Ort. Da das aber zu aufwendig ist, lässt du dich einfach irgendwo in den Alpen absetzen und versuchst den niedrigsten Punk so zu finden: Du rennst natürlich einfach nach unten. Bist du ganz unten angekommen, könnte dies der niedrigste Punkt sein. Aber es könnte auch einfach nur ein hoch gelegenes Tal sein, und hinter dem nächsten Berg liegt ein viel tieferes Tal oder gar eine Schlucht. Daher bist du gezwungen, von dem Tal wieder aufzusteigen und noch einige andere Täler auszuprobieren. Anschließend kehrst du zu dem Tal mit den niedrigsten Punkt zurück.
 
 So in etwa gehen die Algorithmen zur Minimierung der Kostenfunktion vor. Denn alle Täler können sie nicht besuchen, da dies nicht mehr berechenbar wäre.
 
-Welche Täler man nun besucht und wie man überhaupt feststellt dass man in einem Tal und nicht schon wieder auf einer einsteige ist, dazu gibt es verschiedene Heuristiken. Etwa läuft man besonders schnell, wenn man offensichtlich noch sehr weit oben ist und wird immer langsamer je näher man seinem vermeintlichen Ziel kommt
+Welche Täler man nun besucht und wie man überhaupt feststellt dass man in einem Tal und nicht schon wieder auf einem Anstieg ist, dazu gibt es verschiedene Heuristiken. Etwa läuft man besonders schnell, wenn man offensichtlich noch sehr weit oben ist und wird immer langsamer je näher man seinem vermeintlichen Ziel kommt
 
 
 ### Übung
