@@ -4,7 +4,7 @@ Wähle aus den folgenden Aufgaben mindestens eine Aufgabe aus
 
  
 
-# Homepagevorlage für neue Online-Schülerzeitung (Experten)
+## Homepagevorlage für neue Online-Schülerzeitung (Experten)
 
 An deiner Schule wird sich demnächst die neue Schülerzeitung Louise Otto Schülerzeitung (LOS!) gründen. Dein Lehrer hat schon ein wenig Inhalt zusammengetragen; hilf ihm dabei eine eindrucksvolle Webseite zu erstellen.
 
@@ -42,7 +42,7 @@ Impressum.
 
  
 
-# Interaktive ToDo-Liste im Browser (fortgeschrittene Experten)
+## Interaktive ToDo-Liste im Browser (fortgeschrittene Experten)
 
 Dein Lehrer hat das JavaScript Framework Vue.js entdeckt. Er hat sich eine damit gebaute ToDo-App angesehen und ist hellauf begeistert. Nur sieht die Webseite noch nicht sonderlich professionell aus. Ändere das!
 
@@ -56,7 +56,7 @@ i> Verwende das CSS-Framework [Bootstrap](https://getbootstrap.com/docs/4.1/gett
 
  
 
-# Eigenes Projekt (Experten mit Visionen)
+## Eigenes Projekt (Experten mit Visionen)
 
 Du hast eine grandiose Projektidee für eine HTML-Webseite? Erkläre deinem Lehrer deine Vision. Wenn alles, passt kannst du in dieser Stunde dein Projekt vorantreiben und erhältst Tipps.
 

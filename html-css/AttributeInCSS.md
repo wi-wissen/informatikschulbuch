@@ -1,6 +1,6 @@
 # Atttribute in CSS
 
-CSS biete ein Vielzahl an Befehlen. Hier soll dir nur ein Überblick über ausgewählte Befehle gegeben werden. Klickst du auf die Überschrift, kommst du auf [selfhtml.org](https://wiki.selfhtml.org/wiki/CSS), wo du noch viel mehr Befehle findest. Deiner Fantasie sind (fast) keine Grenzen gesetzt!
+CSS bietet ein Vielzahl an Befehlen. Hier soll dir nur ein Überblick über ausgewählte Befehle gegeben werden. Klickst du auf die Überschrift, kommst du auf [selfhtml.org](https://wiki.selfhtml.org/wiki/CSS), wo du noch viel mehr Befehle findest. Deiner Fantasie sind (fast) keine Grenzen gesetzt!
 
 Im Folgenden findest du zuerst eine Übersicht mit vielen Attributen und Attributwerten.
 
@@ -36,7 +36,7 @@ t> [Aufgabe](https://apps.wi-wissen.de/html-css-js-editor/kjkYc)
 
 ### [äußere Gestaltung](https://wiki.selfhtml.org/wiki/CSS/Eigenschaften/%C3%A4u%C3%9Fere_Gestaltung)
 
-Um hier als Experte agieren zu können, empfiehlt es sich diesen [Aritkel](https://wiki.selfhtml.org/wiki/CSS/Box-Modell) schon vorab zu lesen.
+Um hier als Experte agieren zu können, empfiehlt es sich diesen [Artikel](https://wiki.selfhtml.org/wiki/CSS/Box-Modell) schon vorab zu lesen.
 
 | Attribut               | Attributwerte                            |
 | ---------------------- | ---------------------------------------- |
@@ -101,4 +101,4 @@ i> [Beispiel](https://apps.wi-wissen.de/html-css-js-editor/TiOBL)
 
 s> Super! Du hast die Grundlagen in CSS gelegt.
 
-t> Wende all dein Wissen und Geschick aus den vorangegangenen Kapiteln auf das Erstellen einer [Filmwebseite](filmwebseite.md) in Aufgabe 7-9 an.
+t> Wende all dein Wissen und Geschick aus den vorangegangenen Kapiteln auf das Erstellen einer [Filmwebseite](filmwebseite.md) in Aufgabe 8 und 9 an.

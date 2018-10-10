@@ -1,16 +1,15 @@
 # CSS und die Boxen
 
-05.06.2017
 
 ## Entwicklerwerkzeuge im Browser
 
 Bisher haben wir einzelne Elemente von Webseiten gestaltet. Hier untersuchen wir die Beziehung der Elemente untereinander:
 
-*Mozilla Firefox 53*: Drücke <kbd>Strg</kbd> + <kbd>Umschalt</kbd> + <kbd>C</kbd>
+*Mozilla Firefox*: Drücke <kbd>Strg</kbd> + <kbd>Umschalt</kbd> + <kbd>C</kbd>
 
-*Google Chrome 58*: Drücke <kbd>Strg</kbd> + <kbd>Umschalt</kbd> + <kbd>C</kbd>
+*Google Chrome*: Drücke <kbd>Strg</kbd> + <kbd>Umschalt</kbd> + <kbd>C</kbd>
 
-Es öffnet sich am unteren Rand des Browsers die Entwicklerwerkzeuge.
+Es öffnen sich am unteren Rand des Browsers die Entwicklerwerkzeuge.
 
 In den Entwicklerwerkzeugen kannst du einen Blick hinter die Kulissen werfen und die Webseite für dich verändern.
 
@@ -24,13 +23,13 @@ Auch dieser Textabschnitt erscheint in einer Box. Das liegt daran, dass der Brow
 
 ## Abstände von Boxen
 
-t> Verwende wieder die Elementuntersuchenfunktion mit Drücke <kbd>Strg</kbd> + <kbd>Umschalt</kbd> + <kbd>C</kbd>
+t> Verwende die Elementuntersuchenfunktion für die vorliegende Webseite.
 
 t> Fahre mit der Maus über die `div` mit Innenabstand.
 
 <div class="panel panel-default"><div class="panel-body"><div style="padding: 10px; background: none repeat scroll 0 0 #F1F3F4; border: 1px solid #d5d5d5;"><code>div</code> mit Innenabstand</div><div style="margin: 10px; background: none repeat scroll 0 0 #F1F3F4; border: 1px solid #d5d5d5;"><code>div</code> mit Außenabstand</div><div style="padding: 10px; margin: 10px; background: none repeat scroll 0 0 #F1F3F4; border: 1px solid #d5d5d5;"><code>div</code> mit Innen- und Außenabstand</div></div></div>
 
-*Mozilla Firefox 53*:  Im Unteren Bereich unten Rechts findest du nach dem Aktivieren des Tabs „Berechnet“ ein Modell der Box:
+*Mozilla Firefox 53*:  Im unteren Bereich unten Rechts findest du nach dem Aktivieren des Tabs „Berechnet“ ein Modell der Box:
 
 ![img](/img/09-1.png)
 

@@ -19,9 +19,9 @@ t> Öffne eine Nachrichtenseite und adaptiere das Vorgehen aus [diesem Video](ht
 
 HTML - **H**yper**t**ext **M**arkup **L**anguage
 
-Hyptertext ist ein Text, der mit einer netzartigen Struktur von Objekten Informationen durch Querverweise (Hyperlinks) zwischen Hypertexten verknüpft
+Hyptertext ist ein Text, der mit einer netzartigen Struktur von Objekten Informationen durch Querverweise (Hyperlinks) zwischen Hypertexten verknüpft.
 
-Markup Language (Auszeichnungssprache) ist eine Sprache, die erklärt, wie etwas zu verstehen. Besitzt keinen eigenen Inhalt, sondern nur Metainformationen.
+Markup Language (Auszeichnungssprache) ist eine Sprache, die erklärt, wie etwas zu verstehen ist. Sie besitzt keinen eigenen Inhalt, sondern nur Metainformationen.
 
 ### CSS
 

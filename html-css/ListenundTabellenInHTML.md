@@ -9,7 +9,7 @@
 </ul>
 ```
 
-Eine Liste besteht aus einem Element `<ul></ul>` , welche alle Listenelemente kapselt. Ein einzelner Anstrich wird mit einem `<li></li>` angegeben.
+Eine Liste besteht aus einem Element `<ul></ul>` , welches alle Listenelemente kapselt. Ein einzelner Anstrich wird mit einem `<li></li>` angegeben.
 
 `<ul>` ist die Abkürzung für unordered list, also einer ungeordneten Liste. Möchtest du deine Liste geordnet, also mit 1. und 2., so nimmst du stattdessen `<ol>` , was die Abkürzung für ordered List ist.
 

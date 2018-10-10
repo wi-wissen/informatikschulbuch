@@ -13,7 +13,7 @@ Grid (zu deutsch Gitter) wird über die gesamte Webseite oder einen Teil davon g
 
 ![img](/img/10-1.png)
 
-Im Folgenden soll anhand obiger Darstellung gezeigt werden, wie dies in HTML und CSS umgesetzt werden soll:
+Im Folgenden soll anhand obiger Darstellung gezeigt werden, wie dies in HTML und CSS umgesetzt werden kann:
 
 ```html
 <body>
@@ -67,7 +67,7 @@ header {
 }
 ```
 
-Die Überschrift ist in der 1. Zeile (es wird nicht von 0 sondern von 1 losgezählt), Sie beginnt in der 3. Spalte und endet genau vor der 6. Spalte. Folglich geht die Überschrift von der 3. Bis zur 5. Spalte.
+Die Überschrift ist in der 1. Zeile (es wird nicht von 0 sondern von 1 losgezählt). Sie beginnt in der 3. Spalte und endet genau vor der 6. Spalte. Folglich geht die Überschrift von der 3. bis zur 5. Spalte.
 
 Den Text positionierst du mit
 
@@ -97,4 +97,4 @@ Weiterführende Artikel:
 
 s> Glückwunsch! Du hast nun erweiterte Fähigkeiten in CSS erworben!
 
-t> Wende all dein Wissen und Geschick aus den vorangegangenen Kapiteln auf das Erweitern deiner Filmwebseite mit den letzten Aufgabe an. ([Lehrunterlagen](http://apps.wi-wissen.de/lehrunterlagen.php))
+t> Wende all dein Wissen und Geschick aus den vorangegangenen Kapiteln auf das Erweitern deiner Filmwebseite mit der letzten Aufgabe an.

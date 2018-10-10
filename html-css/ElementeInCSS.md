@@ -4,7 +4,7 @@ Bisher sahen unsere Webseiten noch alle sehr gleich aus. Es wird Zeit frischen W
 
 ## Grundlagen
 
-Um abweichend von dem Browser vorgeschlagenen Aussehen ein anderes zu erreichen, gibt es die CSS-Sprache. Mit dieser wird beschrieben, wie die Webseite aussehen soll:
+Um abweichend vom Browser vorgeschlagenen Aussehen ein anderes zu erreichen, gibt es die CSS-Sprache. Mit dieser wird beschrieben, wie die Webseite aussehen soll:
 
 ```html
 <h1>grüne Überschrift</h1>
@@ -31,11 +31,11 @@ Element {
 }
 ```
 
-Nach dem das Element benannt wurde (etwa `body` oder `h1`), wird mit den geschweiften Klammern `{}` Beginn und Ende der Eigenschaften für das Element angezeigt. Mit `Attribut1: Attributwert1` wird dem Attribut1 der Attributwert1 zugewiesen. Das Semikolon `;` beendet die aktuelle Zuweisung und ermöglicht eine weitere.
+Nachdem das Element benannt wurde (etwa `body` oder `h1`), wird mit den geschweiften Klammern `{}` Beginn und Ende der Eigenschaften für das Element angezeigt. Mit `Attribut1: Attributwert1` wird dem Attribut1 der Attributwert1 zugewiesen. Das Semikolon `;` beendet die aktuelle Zuweisung und ermöglicht eine weitere.
 
 ## Elemente adressieren
 
-In obigen Beispiel haben wir alle Überschriften `h1` grün gefärbt. Oft ist das nicht gewollt, und man möchte nur spezielle Elemente ansprechen. Dafür verwenden wir folgende Schreibweise: 
+In obigen Beispiel haben wir alle Überschriften `h1` grün gefärbt. Oft ist das nicht gewollt und man möchte nur spezielle Elemente ansprechen. Dafür verwenden wir folgende Schreibweise: 
 
 ```html
 <h1 class="besonders">grüne Überschrift</h1>
@@ -47,17 +47,17 @@ In obigen Beispiel haben wir alle Überschriften `h1` grün gefärbt. Oft ist da
 }
 ```
 
-Hier werden nur alle Überschriften grün gefärbt, welche bei dem Attribut `class` den Attrributwert `besonders` haben.
+Hier werden nur alle Überschriften grün gefärbt, welche bei dem Attribut `class` den Attributwert `besonders` haben.
 
 t> Übernimm das Beispiel in den [Editor](https://apps.wi-wissen.de/html-css-js-editor/). 
 
 t> Ändere die Farbe von grün auf rot.
 
-i> Besonders beim Programmieren mit JavaScript ist es wichtig genau ein eindeutiges Element anzusprechen. Dafür verwendet man `<h1 id="top">` dies spricht man in CSS etwa mit `#top` an. Der Attributwert zu `id` muss auf der gesamten Seite eindeutig sein!
+i> Besonders beim Programmieren mit JavaScript ist es wichtig genau ein eindeutiges Element anzusprechen. Dafür verwendet man `<h1 id="top">`, dies spricht man in CSS etwa mit `#top` an. Der Attributwert zu `id` muss auf der gesamten Seite eindeutig sein!
 
 
 
-## HTML und CSS zusammenfügen.
+## HTML und CSS zusammenfügen
 
 Um die CSS-Befehle mit dem HTML-Dokument zu verknüpfen, gibt es zwei Möglichkeiten. Beide Möglichkeiten werden im `head` des HTML-Dokumentes umgesetzt, da die Befehle ja nicht angezeigt, sondern ausgeführt werden sollen.
 
@@ -105,11 +105,11 @@ t> Übernimm darin das Beispiel und prüfe, dass deine Überschriften 1. Grades 
 
 ## Aus HTML auf CSS verweisen
 
-i> Folgendes Vorgehen ist praktisch, sofern du dein CSS nicht nur auf einer Seite sondern auf allen Seiten deiner Webseite einbinden möchtest.
+i> Folgendes Vorgehen ist praktisch, sofern du dein CSS nicht nur auf einer Seite, sondern auf allen Seiten deiner Webseite einbinden möchtest.
 
 ```html
 <link href="css/style.css" rel="stylesheet">
 ```
 
-Hier wird für die CSS-Befehle eine extra Datei namens style.css im Unterordner css abgelgt. (Beachte Kapitel Verweise in HTML)
+Hier wird für die CSS-Befehle eine extra Datei namens style.css im Unterordner css abgelgt. (Beachte das Kapitel Verweise in HTML!)
 

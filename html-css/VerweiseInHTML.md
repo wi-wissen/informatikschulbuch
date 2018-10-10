@@ -2,7 +2,7 @@
 
 In diesem Kapitel wollen wir uns ansehen, wie wir von formatiertem Text zu einer tatsächlichen Webseite gelangen. Dazu gehören auf jeden Fall das Setzen von Links und das Einbinden von Bildern.
 
-Das wir beides in diesem Kapitel behandeln, ist kein Zufall. In beiden Fällen müssen wir den Browser nämlich anweisen noch eine weitere Datei zu betrachten. Entweder zeigen wir ihm die nächste HTML-Datei oder eine Bilddatei, die er gleich einbinden soll.
+Dass wir beides in diesem Kapitel behandeln, ist kein Zufall. In beiden Fällen müssen wir den Browser nämlich anweisen noch eine weitere Datei zu betrachten. Entweder zeigen wir ihm die nächste HTML-Datei oder eine Bilddatei, die er gleich einbinden soll.
 
 i> Neben Bildern können wir auch Videos, Ton, PDF Dokumente und sogar ganze Karten einbinden, das sind aber schon kniffligere Themen.)
 
@@ -14,10 +14,10 @@ Ein Verweis ist genau wie ein Link aufgebaut, den du in die Adressleiste deines 
 https://apps.wi-wissen.de/lehrunterlagen.php
 ```
 
-1. `https` – Protokoll für eine verschlüsslte Verbindung
-2. `apps` – Subdomain ein spezieller Bereich innerhalb einer Domain. Früher auch oft www für den Bereich der Webseite für den Browser.
+1. `https` – Protokoll für eine verschlüsselte Verbindung
+2. `apps` – Subdomain, ein spezieller Bereich innerhalb einer Domain. Früher auch oft www für den Bereich der Webseite für den Browser.
 3. `wi-wissen` – Domainname, welcher es ermöglicht die Adresse des Rechners im Internet zu finden.
-4. `de` - Domainendung - unterhalb dieser befinden sich Domainnamen, welche jeweilse eindeutig sein müssen
+4. `de` - Domainendung - unterhalb dieser befinden sich Domainnamen, welche jeweilse eindeutig sein müssen.
 5. `lehrunterlagen.php` – Datei (könnte auch ein 
    Ordnerpfad sein), die der Browser dir zeigen soll. php bedeutet in diesem
     Fall, dass der Server die Seite noch berechnen muss, ehe er die 
@@ -43,7 +43,7 @@ https://apps.wi-wissen.de/html-css-js-editor/img/bird.jpg
 
 Manchmal ist es unpraktisch immer die ganze Adresse anzugeben. Etwa wenn
  du vorhast den Domainnamen deiner Webseite zu ändern, dann müsstest du 
-auch alle Links anpassen. Dies funktioniert nur, wenn du schon auf einer ganz speziellen Webseite im Internet bist. Das ist wie eine Wegbeschreibung "*200m geradeaus und dann scharf links, dann bist du gegen den Laternenpfahl gelaufen.*. Du rennst nur gegen den Laternenpfahl, wenn du dich an einer speziellen Position befindest.					
+auch alle Links anpassen. Dies funktioniert nur, wenn du schon auf einer ganz speziellen Webseite im Internet bist. Das ist wie eine Wegbeschreibung "*200m geradeaus und dann scharf links, dann bist du gegen den Laternenpfahl gelaufen.*". Du rennst nur gegen den Laternenpfahl, wenn du dich an einer speziellen Position befindest.					
 
 ```
 img/bird.jpg
@@ -51,9 +51,9 @@ img/bird.jpg
 
 Du siehst, dieser relative Verweis ist auch viel kürzer und erspart ein wenig Schreibarbeit. Um zu der Datei zu gelangen, soll der Browser zuerst in den Ordner `img` gehen und anschließend das Bild `bird.jpg` abrufen. 
 
-i> Der Ordner `..` weist den Browser an einen Ordner über den aktuellen Ordner zu gehen. und mit `/` geht es ganz nach oben in das Wurzelverzeichnis oder hier bekannt als Domainname mit Domainendung.
+i> Der Ordner `..` weist den Browser an einen Ordner über den aktuellen Ordner zu gehen. Und mit `/` geht es ganz nach oben in das Wurzelverzeichnis oder hier bekannt als Domainname mit Domainendung.
 
-t> Notiere in deinem Hefter, was ein relativer und was ein aboluster Verweis (Adresse) ist.
+t> Notiere in deinem Hefter, was ein relativer und was ein absoluter Verweis (Adresse) ist.
 
 t>  Gib ein Beispiel, wann eine absolute Adresse im Internet verwendet werden muss.
 

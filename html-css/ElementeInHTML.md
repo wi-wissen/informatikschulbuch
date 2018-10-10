@@ -18,7 +18,7 @@ t> [Aufgabe](https://apps.wi-wissen.de/html-css-js-editor/0JnZu)
 
 t> Notiere dir in deinem Hefter das Beispiel für eine Überschrift und markiere mit Pfeilen, welche Bedeutung die einzelnen Symbole haben.
 
-Es gibt einzelne Fälle, da möchte man zwar ein durch Start- und Endtag markiertes Element aufschreiben, hat aber keinen Text, der ausgeben werden soll. In diesem Fall könntest du folgendes schreiben:
+Es gibt einzelne Fälle, da möchte man zwar ein durch Start- und Endtag markiertes Element aufschreiben, hat aber keinen Text, der ausgegeben werden soll. In diesem Fall könntest du folgendes schreiben:
 
 ```html
 <br></br>
