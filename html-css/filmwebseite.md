@@ -18,7 +18,7 @@ Beispiel: <https://www.themoviedb.org/movie/118340-guardians-of-the-galaxy>
 
 w> Achte darauf, nicht ausversehentlich die Endung `txt` zu verwenden! 
 
-# 2. Text auf der Webseite
+# 2. Inhalt der Webseite
 
 1. Öffne mit Notepad++ die Datei `index.html`
 
@@ -35,14 +35,14 @@ Expertenaufgabe: Füge in den head noch folgende Befehle ein:
 <link href="css/bootstrap.min.css" rel="stylesheet">
 ```
 
-## 2. Überschrift
+## 2.1. Überschrift
 
 1. Füge über der Beschreibung des Films noch den Filmtitel als Überschrift ein. 
 
 2. Nach dem Titel soll in Klammern das Jahr ausgeben werden. Der Text soll dabei kleiner sein, als der der Überschrift. Um einen Text kleiner anzuzeigen, kannst du den `small`-Tag verwenden.
 
 
-## 3. Textformatierung
+## 2.2. Textformatierung
 
 i> Ein Abschnitt heißt im Englischen „paragraph“. Er wird als `<p></p>` abgekürzt.
 
@@ -57,7 +57,7 @@ i> Ein Abschnitt heißt im Englischen „paragraph“. Er wird als `<p></p>` abg
 5. Schreibe den eben eingefügten Absatz kleiner.
 
 
-## 4. Listen und Tabellen
+## 2.3. Listen und Tabellen
 
 1. Füge unter der Filmbeschreibung eine geeignete Liste mit 3 wichtigen Genres des Filmes ein.
 
@@ -68,12 +68,12 @@ i> Ein Abschnitt heißt im Englischen „paragraph“. Er wird als `<p></p>` abg
 
 Experten: Gib der Tabelle eine Spaltenüberschrift.
 
-## 5. Verweise
+## 2.4. Verweise
 
 1. Füge ganz unten auf deiner Seite einen Link zu deinem Film auf [themoviedb.org](https://www.themoviedb.org/) ein. Es soll das Wort Quelle angezeigt werden. 
 
 
-## 6. Bilder und Video
+## 2.5. Bilder und Video
 
 1. Lege im Ordner html einen Ordner img an und speichere darin das Filmposter und ein Filmbackdrop (Bild aus dem Film) ab.
 
@@ -94,18 +94,19 @@ Expertenaufgabe:
 
 i> Du kannst dazu z.B. auf YouTube gehen und dann den Videolink mit  <http://keepvid.com> speichern. 
 
- 
+
+# 3. Gestaltung der Webseite
 
 **Ab hier solltest du zuerst CSS aus dem HTML-Tutorial behandelt haben.**
 
-## 7. CSS
+## 3.1. CSS
 
 1. Binde entweder direkt in der Seite oder als extra Datei im Ordner `css ` einen CSS Block ein. 
 
 2. Färbe alle Überschriften in deiner Lieblingsfarbe ein.
 
 
-## 8. Hintergrund
+## 3.2. Hintergrund
 
 1. Noch ist der Webseitenhintergrund recht fad. 
 
@@ -115,7 +116,7 @@ Expertenaufgabe: Färbe den Rest des Hintergrundes in einer Kontrastfarbe zu den
 
 i> Verwende [background-blend-mode](https://wiki.selfhtml.org/wiki/CSS/Eigenschaften/Hintergrundfarben_und_-bilder/background-blend-mode)
 
-## 9. Ausrichten der Webseite
+## 3.3. Ausrichten der Webseite
 
 Richte die Elemente mithilfe der Grid-Idee neu aus. Gern kannst du aber auch ein eigenes Layout wählen.
 

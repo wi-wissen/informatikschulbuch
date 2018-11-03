@@ -9,8 +9,68 @@
 
 ### [Grid](https://wiki.selfhtml.org/wiki/CSS/Eigenschaften/grid)
 
-Grid (zu deutsch Gitter) wird über die gesamte Webseite oder einen Teil davon gelegt. Anschließend können daran Elemente ausgerichtet werden:
+Grid (zu deutsch Gitter) wird über die gesamte Webseite oder einen Teil davon gelegt. Anschließend können daran Elemente ausgerichtet werden.
 
+#### Einfaches Beispiel mit zwei Spalten
+
+![img](/img/10-2.png)
+
+Im Folgenden soll anhand obiger Darstellung gezeigt werden, wie dies in HTML und CSS umgesetzt werden kann:
+
+```html
+<body>
+	<div class="nav"> 
+		<a href="#">Link 1</a> 
+		<br> 
+		<a href="#">Link 2</a>
+	</div>
+	<div class="content"> 
+		Weit hinten, hinter den Wortbergen, ...
+	</div>
+</body>
+```
+
+Zuerst erklären wir, dass wir mithilfe des Gitters arbeiten möchten:
+
+```css
+body {
+	display: grid;
+}
+```
+Alles innerhalb des `body` wird nun am Gitter ausgerichtet.
+
+Nun beschreiben wir unser Gitter:
+
+```css
+body {
+    display: grid;
+	grid-template-columns: 20% 80%;
+}
+```
+Die erste Spalte (`column`) soll `20%` und die zweite Spalte soll `80%` der verfügbaren Breite einnehmen.
+
+Absolute Breiten gehen natürlich auch, da Bildschirme sehr verschiedene Auflösungen und Pixeldichten haben, musst du hier genau nachdenken. Absolute Größen sind etwa sinnvoll, wenn du eine Navigationsliste erstellst und diese unabhängig von den anderen Elemente eine feste Höhe haben soll.
+
+In dem erstellten Gitter beschreiben wir nun, wo unsere Navigation (`nav`) sein soll:
+
+```css
+.nav {
+	grid-column-start: 1;
+} 
+```
+Die Navigation ist in der 1. Spalte (es wird nicht von 0 sondern von 1 losgezählt). 
+
+Den eigentlichen Inhalt deiner Seite (`content`) deiner Webseite positionierst du direkt daneben in der zweiten Spalte mit
+
+```css
+.content {
+	grid-column-start: 2;
+} 
+
+```
+t> Übernimm die CSS-Befehle in den [Editor](https://apps.wi-wissen.de/html-css-js-editor/oMzU2).
+
+#### komplexes Beispiel einer Webseite
 ![img](/img/10-1.png)
 
 Im Folgenden soll anhand obiger Darstellung gezeigt werden, wie dies in HTML und CSS umgesetzt werden kann:
@@ -23,7 +83,7 @@ Im Folgenden soll anhand obiger Darstellung gezeigt werden, wie dies in HTML und
 </body>
 ```
 
-Zuerst erklären wir, dass wir mithilfe des Gitters arbeiten möchten:
+Zuerst erklären wir wieder, dass wir mithilfe des Gitters arbeiten möchten:
 
 ```css
 body {
@@ -31,7 +91,7 @@ body {
 }
 ```
 
-Alles innerhalb des body wird nun am Gitter ausgerichtet.
+Alles innerhalb des `body ` wird nun am Gitter ausgerichtet.
 
 Nun beschreiben wir unser Gitter:
 
@@ -50,12 +110,6 @@ grid-template-rows: 1fr 2fr 1fr;
 ```
 
 Hier ist die mittlere Spalte doppelt so breit wie die anderen beiden. Du hättest auch `25% 50% 25%` schreiben können.
-
-Absolute Breiten gehen natürlich auch, da Bildschirme sehr verschiedene Auflösungen und Pixeldichten haben, musst du hier genau nachdenken. Absolute Größen sind etwa sinnvoll, wenn du eine Navigationsliste erstellst und diese unabhängig von den anderen Elemente eine feste Höhe haben soll.
-
- 
-
-## Jedes hat seinen Platz
 
 In dem erstellten Gitter beschreiben wir nun, wo unsere Überschrift sein soll:
 
@@ -97,4 +151,4 @@ Weiterführende Artikel:
 
 s> Glückwunsch! Du hast nun erweiterte Fähigkeiten in CSS erworben!
 
-t> Wende all dein Wissen und Geschick aus den vorangegangenen Kapiteln auf das Erweitern deiner Filmwebseite mit der letzten Aufgabe an.
+t> Wende all dein Wissen und Geschick aus den vorangegangenen Kapiteln auf das Erweitern deiner Filmwebseite ab Aufgabe 3 an.
