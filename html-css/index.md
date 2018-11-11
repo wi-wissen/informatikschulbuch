@@ -2,7 +2,7 @@
 
 ## Los geht's!
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/o6jlmZw7yqY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xKRKrF80qNU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Auf diesen Seiten lernst du mit HTML und CSS deine ersten Webseiten zu schreiben.
 
@@ -13,7 +13,12 @@ aussehen soll. So werden mit HTML die Inhalte wie etwa Text, Bilder oder
 hinterlegten Texte, Bilder und Videos zuständig. Dies sorgt dafür, dass 
 nicht alle Webseiten gleich aussehen.
 
-t> Öffne eine Nachrichtenseite und adaptiere das Vorgehen aus [diesem Video](https://youtu.be/pN9blLvhvKk).
+## Eine Website "hacken"
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pN9blLvhvKk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+t> Öffne eine Nachrichtenseite und adaptiere das Vorgehen aus dem obigen Video.
+
+## Begriffe
 
 ### HTML
 
