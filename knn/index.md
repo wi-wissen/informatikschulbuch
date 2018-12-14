@@ -1,4 +1,4 @@
-# Künstliche neuronale Netze
+# Künstliche neuronale Netze (KNN)
 
 ## ...oder auch künstliche Intelligenz?
 

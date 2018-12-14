@@ -12,7 +12,7 @@ Du musst nur diesen auf deiner Webseite einbinden:
 <script src="https://unpkg.com/ml5"></script>
 ```
 
-i> [**Hier**](https://apps.wi-wissen.de/neuronale-netze/ml5js/image-classification.html) siehst du ein Beispiel wie Bilder klassifiziert werden können. Das erste Bild ist aus der Trainingsmenge. Das zweite ein zufälliger Mensch, das dritte eine Tasse ud schlussendlich ein zufälliges Foto.
+i> [**Hier**](https://apps.informatik.cc/neuronale-netze/ml5js/image-classification.html) siehst du ein Beispiel wie Bilder klassifiziert werden können. Das erste Bild ist aus der Trainingsmenge. Das zweite ein zufälliger Mensch, das dritte eine Tasse ud schlussendlich ein zufälliges Foto.
 
 Um ein Foto zu Klassifizieren reicht der folgende Quelltext:
 

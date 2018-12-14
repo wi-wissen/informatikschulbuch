@@ -18,11 +18,17 @@ Im zweiten Schritt soll das Gesicht so gedreht und zugeschnitten werden, dass nu
 
 ![bbt-2](img/bbt-2.png)
 
+So sieht dann in etwa das Ergebnis aus:
+
+![bbt-2-1](img/bbt-2-1.png)
+
 Jetzt werden die Gesichter mit einer Auswahl (hier sind es 20, für ein Video wären mehrere hundert gut) verglichen:
 
-![bbt-3](img/bbt-3.jpeg)
+![bbt-3-1](img/bbt-3-1.png)
 
+Das Endergebnis kann dann etwa wie folgt visualisiert werden:
 
+![bbt-final](img/bbt-final.png)
 
 w> Alle Bilder sind Eigentum der jeweiligen Urheber. [Der vollständige Artikel](https://itnext.io/face-api-js-javascript-api-for-face-recognition-in-the-browser-with-tensorflow-js-bcc2a6c4cf07) ist auf englisch bei itnext.io verfügbar.
 

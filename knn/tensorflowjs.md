@@ -6,7 +6,7 @@ i> Die technische Umsetzung findet hier in JavaScript mit [TensorFlow.js](https:
 
 Das erste Beispiel ist ein sehr einfaches, welches ausschließlich dazu dient das Grundkonzept von TensorFlow.js zu verstehen.
 
-Das fertige Beispiel findest du auf **[apps.wi-wissen.de](https://apps.wi-wissen.de/neuronale-netze/polynomial-regression-core/)**.  Sofern du [node.js](https://nodejs.org/de/) und [yarn](https://yarnpkg.com/en/) installiert hast, kannst du dir den Quelltext auch selbst herunterladen:
+Das fertige Beispiel findest du auf **[apps.informatik.cc](https://apps.informatik.cc/neuronale-netze/polynomial-regression-core/)**.  Sofern du [node.js](https://nodejs.org/de/) und [yarn](https://yarnpkg.com/en/) installiert hast, kannst du dir den Quelltext auch selbst herunterladen:
 
 ```bash
 git clone https://github.com/tensorflow/tfjs-examples
@@ -105,7 +105,7 @@ i> Sicher ist dir aufgefallen, dass es noch immer eine kleine Abweichung zum ric
 
 ## Handgeschriebene Zahlen erkennen
 
-Das fertige Beispiel findest du auf **[apps.wi-wissen.de](https://apps.wi-wissen.de/neuronale-netze/mnist/)**.  Sofern du [node.js](https://nodejs.org/de/) und [yarn](https://yarnpkg.com/en/) installiert hast, kannst du dir den Quelltext auch selbst herunterladen:
+Das fertige Beispiel findest du auf **[apps.informatik.cc](https://apps.informatik.cc/neuronale-netze/mnist/)**.  Sofern du [node.js](https://nodejs.org/de/) und [yarn](https://yarnpkg.com/en/) installiert hast, kannst du dir den Quelltext auch selbst herunterladen:
 
 ```bash
 git clone https://github.com/tensorflow/tfjs-examples
