@@ -77,6 +77,14 @@ Gibt es charakteristische Elemente die den Ursprungsort weiter eingrenzen? Beson
 
 Am einfachsten ist natürlich, wenn du jemanden kennst, der aus eigener Erfahrung bestätigen kann, dass dies dieser Ort ist.
 
+#### Künstliche Intelligenz suchen lassen
+
+Forscher der Leibnitz Universität haben ein neuronales Netzwerk darauf trainiert, nur anhand der sichtbaren Bereiche des Fotos den Standort zu bestimmen. Dies klappt manchmal exakt auf die Straße aber irrt sich auch manchmal im Kontinent. [Hier](http://openaccess.thecvf.com/content_ECCV_2018/papers/Eric_Muller-Budack_Geolocation_Estimation_of_ECCV_2018_paper.pdf) findest du den wissenschaftlichen Artikel dazu. 
+
+* [Geolocation Estimation](https://labs.tib.eu/geoestimation/)
+
+
+
 ### Wurde das Foto auch an dem Tag aufgenommen?
 
 EXIF-Daten kann man fälschen. Wie finden wir nun heraus, ob das Foto auch von dem Tag stammt? 
