@@ -16,7 +16,7 @@ h1 {
 }
 ```
 
-t> Gib obiges Beispiel in den [Editor](https://apps.wi-wissen.de/html-css-js-editor/) ein.					
+t> Gib obiges Beispiel in den [Editor](https://eule27.de/t/C8Z8F) ein.					
 
 In obigen Beispiel wurde die Überschrift anstelle der vom Browser vorgeschlagenen schwarzen Farbe in grün geschrieben.
 
@@ -49,7 +49,7 @@ In obigen Beispiel haben wir alle Überschriften `h1` grün gefärbt. Oft ist da
 
 Hier werden nur alle Überschriften grün gefärbt, welche bei dem Attribut `class` den Attributwert `besonders` haben.
 
-t> Übernimm das Beispiel in den [Editor](https://apps.wi-wissen.de/html-css-js-editor/). 
+t> Übernimm das Beispiel in den [Editor](https://eule27.de/t/C8Z8F). 
 
 t> Ändere die Farbe von grün auf rot.
 

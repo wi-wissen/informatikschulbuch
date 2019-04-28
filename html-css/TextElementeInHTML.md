@@ -14,7 +14,7 @@ Du kannst Text wie folgt formatieren:
 
 Sicher fragst du dich, warum der Text keine Farben oder eine andere Schriftart erhalten kann. Um das durchzuführen, lernen wir später CSS.
 
-t> [Aufgabe](https://apps.wi-wissen.de/html-css-js-editor/RKUnQ)
+t> [Aufgabe](https://eule27.de/t/G8EZC)
 
 Mehr Elemente zur Formatierung findest du bei [selfhtml.org](https://wiki.selfhtml.org/wiki/HTML/Textauszeichnung)
 
@@ -31,9 +31,9 @@ Die erste Überschrift hast du schon im vorherigen Abschnitt kennengelernt. Wie 
 <h6>Überschrift 6. Ordnung</h6>
 ```
 
-t> [Aufgabe 1](https://apps.wi-wissen.de/html-css-js-editor/dqe16)
+t> [Aufgabe 1](https://eule27.de/t/cgfKQ)
 
-t> [Aufgabe 2](https://apps.wi-wissen.de/html-css-js-editor/WDSWN)
+t> [Aufgabe 2](https://eule27.de/t/PwAhh)
 
 ## Zeilenumbrüche
 
@@ -47,5 +47,5 @@ i> `br` ist dabei die Abkürzung für break and return
 
 
 
-t> [Aufgabe](https://apps.wi-wissen.de/html-css-js-editor/0XtSu)
+t> [Aufgabe](https://eule27.de/t/wipiU)
 

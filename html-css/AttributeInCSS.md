@@ -16,7 +16,7 @@ Danach findest du wichtige Erklärungen zu nummerischen Angaben und Farben.
 | `font-size`   | `xx-small`, `x-small`, `small`, `medium`, `large`, `x-large`, `xx-large`									nummerischer Wert |
 | `color`       | Farbe                                    |
 
-t> [Aufgabe](https://apps.wi-wissen.de/html-css-js-editor/yUhCE)
+t> [Aufgabe](https://eule27.de/t/8Vr8m)
 
 ### [Textformatierung](https://wiki.selfhtml.org/wiki/CSS/Eigenschaften/Textformatierung)
 
@@ -24,7 +24,7 @@ t> [Aufgabe](https://apps.wi-wissen.de/html-css-js-editor/yUhCE)
 | ---------------- | ---------------------------------------- |
 | `text-transform` | `capitalize`, Wortanfänge als Großbuchstaben, alle anderen Buchstaben werden nicht verändert.<br />`uppercase`, nur Großbuchstaben	<br />`lowercase`, nur Kleinbuchstaben<br />`none`, keine Text-Transformation |
 
-t> [Aufgabe](https://apps.wi-wissen.de/html-css-js-editor/TY2nj)
+t> [Aufgabe](https://eule27.de/t/G7t89)
 
 ### [Textausrichtung](https://wiki.selfhtml.org/wiki/CSS/Eigenschaften/Textausrichtung)
 
@@ -32,7 +32,7 @@ t> [Aufgabe](https://apps.wi-wissen.de/html-css-js-editor/TY2nj)
 | ------------ | ---------------------------------------- |
 | `text-align` | `justify` (Blocksatz)<br />`center` (für zentrierte Ausrichtung)<br />`right` (für rechtsbündige Ausrichtung)<br />`left` (für linksbündige Ausrichtung)<br />(gilt auch für Bilder) |
 
-t> [Aufgabe](https://apps.wi-wissen.de/html-css-js-editor/kjkYc)
+t> [Aufgabe](https://eule27.de/t/M9V8J)
 
 ### [äußere Gestaltung](https://wiki.selfhtml.org/wiki/CSS/Eigenschaften/%C3%A4u%C3%9Fere_Gestaltung)
 
@@ -44,7 +44,7 @@ Um hier als Experte agieren zu können, empfiehlt es sich diesen [Artikel](https
 | `border-color`         | Farbe                                    |
 | `border-width` | `thin` (dünn),<br /> `medium` (mittelstark),<br /> `thick` (dick)<br /> Nummerische Angabe |
 
-t> Wende die obigen Attribute auf den [gegebenen Text](https://apps.wi-wissen.de/html-css-js-editor/0NmkG) an.
+t> Wende die obigen Attribute auf den [gegebenen Text](https://eule27.de/t/np2Xo) an.
 
 ### [Hintergrundfarben und -bilder](https://wiki.selfhtml.org/wiki/CSS/Eigenschaften/Hintergrundfarben_und_-bilder)
 
@@ -53,7 +53,7 @@ t> Wende die obigen Attribute auf den [gegebenen Text](https://apps.wi-wissen.de
 | `background-image` | `url(`Adresse zum Bild, wie bei img`)` |
 | `background-color` | Farbe                                  |
 
-t> Öffne den [Editor](https://apps.wi-wissen.de/html-css-js-editor/) und färbe den Hintergrund in deiner Liebingsfarbe ein.
+t> Öffne den [Editor](https://eule27.de/t/C8Z8F) und färbe den Hintergrund in deiner Lieblingsfarbe ein.
 
 t> Experten: Probiere eine [RGBA-Farbe](https://wiki.selfhtml.org/wiki/Grafik/Farben#rgba) aus. Was unterscheidet diese von den bisherigen Farben?
 
@@ -89,7 +89,7 @@ i> Farben kannst du dir z.B. mit einem [Color-Picker](http://www.w3schools.com/c
 
 Die Farbe wird dabei je Grundfarbe angegeben: `rgb(153,68,0)`. Kürzer ist die Angabe `#de5410`, dabei wird die Farbe nicht dezimal, sondern hexadezimal geschrieben (Das #-Zeichen markiert dies) `#RRGGBB` sind dabei die Farben.
 
-i> [Beispiel](https://apps.wi-wissen.de/html-css-js-editor/AWUMv)
+i> [Beispiel](https://eule27.de/t/3npzQ)
 
 ## nummerische Angaben
 
@@ -97,7 +97,7 @@ In HTML-Webseiten gibt es neben festgelegten Größen 3 verschiedene Maßeinheit
 
 Zahl in den Einheiten `px` (Pixel), `em` (x-fache Standartschriftgröße), `%` (von der Standartschriftgröße)
 
-i> [Beispiel](https://apps.wi-wissen.de/html-css-js-editor/TiOBL)
+i> [Beispiel](https://eule27.de/t/PVxvb)
 
 s> Super! Du hast die Grundlagen in CSS gelegt.
 

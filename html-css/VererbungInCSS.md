@@ -10,13 +10,13 @@ Ein Element, welches mindestens ein Element enthält, nennt man Elternelement. D
 
 ![img](img/08-1.png)
 
-t> [Aufgabe](https://apps.wi-wissen.de/html-css-js-editor/cWCDs)
+t> [Aufgabe](https://eule27.de/t/BZe4g)
 
 ### Was wird geerbt?
 
 [Hier](https://apps.wi-wissen.de/html-css-js-editor/hFdr4) hatten wir verschiedenfarbige `div`-Boxen ineinander geschachtelt. Dabei sind innerhalb des grünen Kastens zwei Kästen. Einer, welche explizit einen roten Hintergrund bekommen hat und ein Kasten ohne eigenen Hintergrund. Dieser ist nicht etwa durchscheinend, sondern erbt die Hintergrundfarbe der übergeordneten `div`-Box. Man könnte auch sagen, die `div`-Box übernimmt die Werte der übergeordneten `div`-Box, sofern sie keine eigenen Werte an dieser Stelle definiert hat.
 
-t> [Aufgabe](https://apps.wi-wissen.de/html-css-js-editor/Gj1cD)
+t> [Aufgabe](https://eule27.de/t/Zbn2J)
 
 Bis hierhin hat sich dir bestimmt alles noch recht logisch erschlossen. 
 Nun kommt das große ABER: Nicht alle Eigenschaften werden vererbt. So 

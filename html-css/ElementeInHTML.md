@@ -14,7 +14,7 @@ In obigen Beispiel hast du eine Überschrift ausgezeichnet. Dabei markiert `<h1>
 
 Sicher ist dir aufgefallen, dass sich Start- und Endtag nur durch den `/` unterscheiden. Dadurch behälst du ganz leicht den Überblick.  Die spitzen Klammern `<>` mit allem was darin steht werden nicht im Browser zu sehen sein und dienen nur als Orientierung für den Browser.
 
-t> [Aufgabe](https://apps.wi-wissen.de/html-css-js-editor/0JnZu)
+t> [Aufgabe](https://eule27.de/t/i49qc)
 
 t> Notiere dir in deinem Hefter das Beispiel für eine Überschrift und markiere mit Pfeilen, welche Bedeutung die einzelnen Symbole haben.
 
@@ -30,7 +30,7 @@ Das geht zwar, ist aber den Entwicklern zu lang. Daher gibt es hier eine Kurzsch
 <br />
 ```
 
-t> [Aufgabe](https://apps.wi-wissen.de/html-css-js-editor/v3SU3)
+t> [Aufgabe](https://eule27.de/t/DdsUg)
 
 
 

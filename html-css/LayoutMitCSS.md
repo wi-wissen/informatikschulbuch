@@ -68,7 +68,7 @@ Den eigentlichen Inhalt deiner Seite (`content`) deiner Webseite positionierst d
 } 
 
 ```
-t> Übernimm die CSS-Befehle in den [Editor](https://apps.wi-wissen.de/html-css-js-editor/oMzU2).
+t> Übernimm die CSS-Befehle in den [Editor](https://eule27.de/t/7VUGE).
 
 #### komplexes Beispiel einer Webseite
 ![img](/img/10-1.png)
@@ -136,7 +136,7 @@ main {
 
 An den beiden obigen Beispielen siehst du gut eine Kurzschreibweise: Erstreckt sich ein Element nur innerhalb einer Spalte oder Zeile, so reicht `grid-row` bzw. `grid-column`. Soll es mehrere umfassen, wird mit `–start` und `–end` gearbeitet. Es gibt noch weitere Schreibweisen, die im Endeffekt zum gleichen Ergebnis führen.
 
-t> Übernimm die CSS-Befehle in den [Editor](https://apps.wi-wissen.de/html-css-js-editor/13pRy)
+t> Übernimm die CSS-Befehle in den [Editor](https://eule27.de/t/dgC5g)
 
 t> Schreibe selbst das CSS für `nav`
 

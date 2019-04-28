@@ -11,22 +11,22 @@ i> Neben Bildern können wir auch Videos, Ton, PDF Dokumente und sogar ganze Kar
 Ein Verweis ist genau wie ein Link aufgebaut, den du in die Adressleiste deines Browsers eingibst.
 
 ```
-https://apps.wi-wissen.de/lehrunterlagen.php
+https://apps.informatik.cc/sql/sqlite.php
 ```
 
 1. `https` – Protokoll für eine verschlüsselte Verbindung
 2. `apps` – Subdomain, ein spezieller Bereich innerhalb einer Domain. Früher auch oft www für den Bereich der Webseite für den Browser.
-3. `wi-wissen` – Domainname, welcher es ermöglicht die Adresse des Rechners im Internet zu finden.
-4. `de` - Domainendung - unterhalb dieser befinden sich Domainnamen, welche jeweilse eindeutig sein müssen.
-5. `lehrunterlagen.php` – Datei (könnte auch ein 
-   Ordnerpfad sein), die der Browser dir zeigen soll. php bedeutet in diesem
+3. `informatik.cc` – Domainname, welcher es ermöglicht die Adresse des Rechners im Internet zu finden.
+4. `de` - Domainendung - unterhalb dieser befinden sich Domainnamen, welche jeweils eindeutig sein müssen.
+5. `sql` - Ordner auf dem Server
+6. `sqlite.php` – Datei, die der Browser dir zeigen soll. `php` bedeutet in diesem
     Fall, dass der Server die Seite noch berechnen muss, ehe er die 
    Webseite an den Browser ausliefern darf.
 
 t> Notiere die folgende Domain in deinen Hefter und gib an, was die einzelnen Bestandteile bedeuten: 
 
 ```
-https://lops-leipzig.de/schule/about_us.html
+https://www.tagesschau.de/inland/digitalpakt-bundestag-101.html
 ```
 
 ## Verweisarten
@@ -36,7 +36,7 @@ https://lops-leipzig.de/schule/about_us.html
 Gibst du in deinen Browser einen Verweis, musst du immer die vollständige Adresse eingeben, damit dein Rechner weiß, wo er die Webseite herbekommen kann. Dadurch ist es egal, auf welcher Seite du vorher warst. Du kommst immer auf der neuen Adresse an. Das ist ähnlich einer Postanschrift. Hier ist es auch ganz egal, in welchen Briefkasten ich den Brief einwerfe.					
 
 ```
-https://apps.wi-wissen.de/html-css-js-editor/img/bird.jpg
+https://apps.informatik.cc/html-css-js-editor/img/bird.jpg
 ```
 
 ### relative Verweise
@@ -62,14 +62,14 @@ t>  Gib ein Beispiel, wann eine relative Adresse verwendet werden kann. Begründ
 ## Links
 
 ```
-<a href="https://wi-wissen.de/">WIssen</a>
+<a href="https://informatik.cc/">Informatik</a>
 ```
 
-t> Gib den obigen Befehl in den [Editor](https://apps.wi-wissen.de/html-css-js-editor/) ein und untersuche, was der Befehl bedeutet.
+t> Gib den obigen Befehl in den [Editor](https://eule27.de/t/C8Z8F) ein und untersuche, was der Befehl bedeutet.
 
-Hier haben wir etwas Neues. Bisher kannten wir nur `<a>WIssen</a>`. Nun steht im Startelement noch zusätzlich `href="https://wi-wissen.de/"`. Hierdurch wird das Textelement Link genauer für den Webbrowser beschrieben, was aber so nicht unmittelbar angezeigt wird.
+Hier haben wir etwas Neues. Bisher kannten wir nur `<a>Informatik</a>`. Nun steht im Startelement noch zusätzlich `href="https://informatik.cc/"`. Hierdurch wird das Textelement Link genauer für den Webbrowser beschrieben, was aber so nicht unmittelbar angezeigt wird.
 
-Da es den Link genauer beschreibt, sagt man auch, `href` ist eine Eigenschaft des Links. Bei HTML heißt Eigenschaft Attribut. `"https://wi-wissen.de/"` ist der Wert des Attributes (Attributwert), welcher in Anführungszeichen geschrieben wird.
+Da es den Link genauer beschreibt, sagt man auch, `href` ist eine Eigenschaft des Links. Bei HTML heißt Eigenschaft Attribut. `"https://informatik.cc/"` ist der Wert des Attributes (Attributwert), welcher in Anführungszeichen geschrieben wird.
 
 t> Notiere in deinem Hefter, was Attribute in HTML sind. Es könnte praktisch sein einen Link als Beispiel mit aufzuschreiben.
 
@@ -81,6 +81,6 @@ Das Einbinden eines Bildes funktioniert ähnlich eines Links, nur dass hier nich
 <img src="img/dog.jpg" alt="Dog" />
 ```
 
-t>  Gib den Befehl in den [Editor](https://apps.wi-wissen.de/html-css-js-editor/) ein.
+t>  Gib den Befehl in den [Editor](https://eule27.de/t/C8Z8F) ein.
 
 t>  Finde mithilfe von [selfhtml.org](https://wiki.selfhtml.org/wiki/Img) heraus, was `src` und `alt` bedeuten.
