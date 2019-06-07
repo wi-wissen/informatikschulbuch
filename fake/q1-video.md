@@ -28,7 +28,7 @@ Hier hat der Anbieter einen Screencast aufgezeichnet, wie du das Plugin verwende
 
 ## Jedes Detail in einem Video ist wichtig
 
-Achte genau auf die Details in den Videos. Oft sind wichtige Indizien am Rande zu sehen. Vielleicht ein schneller Schenk über ein Straßenschild oder eine verdächtige Spiegelung des Filmenden selbst? Solche Details kannst du dir in aller Ruhe ansehen, indem du das Video Bild für Bild durchgehst:
+Achte genau auf die Details in den Videos. Oft sind wichtige Indizien am Rande zu sehen. Vielleicht ein schneller Schwenk über ein Straßenschild oder eine verdächtige Spiegelung des Filmenden selbst? Solche Details kannst du dir in aller Ruhe ansehen, indem du das Video Bild für Bild durchgehst:
 
 * [Watch Frame by Frame](http://www.watchframebyframe.com)
 
