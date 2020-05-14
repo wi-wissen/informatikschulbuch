@@ -1,6 +1,6 @@
 # Gesichtererkennung
 
-Wir können uns hier ein Beispiel ansehen, wie Gesichter erkannt werden. Die Beispiele kannst du dank der [face-api.js](https://github.com/justadudewhohacks/face-api.js) von [justadudewhohacks](https://github.com/justadudewhohacks) [**hier**](https://justadudewhohacks.github.io/face-api.js/face_and_landmark_detection) ausprobieren. (Beachte, dass dafür wirklich viele Daten runtergeladen werden müssen.)
+i>Die folgenden Beispiele kannst du dank der [face-api.js](https://github.com/justadudewhohacks/face-api.js) von [justadudewhohacks](https://github.com/justadudewhohacks) [**hier**](https://justadudewhohacks.github.io/face-api.js/face_and_landmark_detection) ausprobieren. (Beachte, dass dafür wirklich viele Daten runtergeladen werden müssen.)
 
 ![bbt-0](img/bbt-0.jpeg)
 
@@ -33,6 +33,24 @@ Das Endergebnis kann dann etwa wie folgt visualisiert werden:
 w> Alle Bilder sind Eigentum der jeweiligen Urheber. [Der vollständige Artikel](https://itnext.io/face-api-js-javascript-api-for-face-recognition-in-the-browser-with-tensorflow-js-bcc2a6c4cf07) ist auf englisch bei itnext.io verfügbar.
 
 
+
+## Eine virtuelle Clownsnase aufsetzen.
+
+Hast du schonmal in die Wolken gesehen oder die Raufasertapete interessiert gemustert und plötzlich ein Gesicht gesehen? Das ist ganz normal. Für Menschen ist es sehr wichtig Gesichter zu sehen, daher kann das schonmal sein, dass wir da ein wenig über das Ziel hinaus schießen. Folglich hat man das auch sehr schnell den Rechnern beigebracht.
+
+Hier werden wir uns eine virtuelle Clownsnase aufsetzen:
+
+<div class="plyr__video-embed" id="player">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mN__yB4-P-4?origin=https://buch.informatik.cc&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<figcaption>Video bei <a href="https://youtu.be/mN__yB4-P-4">YouTube</a> ansehen </figcaption>
+
+Hinweis: Dein Kamerabild wird auf deinem Rechner verarbeitet, du musst dir also keine Sorgen machen, dass es im Internet landet. Du kannst das Internet in der Zeit auch von dir trennen.
+
+t> Expertenaufgabe: Schaffst du es anstelle des Kreises einen Smilie passend über dein Gesicht zu legen.
+
+Du fragst dich wie viele Gesichter sich eine künstliche Intelligenz ansehen musste, um diese sicher zu erkennen? Nunja mehr ist besser, aber hier waren es über 32.000 Photos mit darauf 390.000 Gesichtern.
 
 ## lokal Ausprobieren
 

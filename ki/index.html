@@ -16,6 +16,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="css/plyr.css" />
   <link rel="stylesheet" href="css/vue.css">
   <link rel="stylesheet" href="css/vue-boxes.css">
   <link rel="stylesheet" href="css/custom.css">
@@ -24,9 +25,12 @@
 
 <body>
   <div id="app"></div>
+  
+  <script src="js/plyr.js"></script>
+	
   <script>
     window.$docsify = {
-      name: 'Künstliche neuronale Netze',
+      name: 'Künstliche Intelligenz',
       homepage: 'index.md',
       auto2top: true,
       loadSidebar: true,
@@ -83,14 +87,36 @@
             return "<p style='text-align:right;'>{docsify-updated}<p>\n\n" + html
               + '\n\n----\n'
               + editHtml
-          })
+          });
+		  
+		  hook.doneEach(function() {
+			const players = Plyr.setup('.plyr__video-embed');
+		  });
         }
       ],
-    }
+    };
   </script>
   <script src="js/docsify.min.js"></script>
   <script src="js/search.min.js"></script>
   <script src="js/prism.js"></script>
+    
+	<!-- Matomo -->
+	<script type="text/javascript">
+	  var _paq = _paq || [];
+	  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+		var u="//piwik.wi-wissen.de/";
+		_paq.push(['setTrackerUrl', u+'piwik.php']);
+		_paq.push(['setSiteId', '4']);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+	<noscript><p><img src="//piwik.wi-wissen.de/piwik.php?idsite=4&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Matomo Code -->
+
 </body>
 
 </html>

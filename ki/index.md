@@ -4,11 +4,19 @@ Das Wort künstliche Intelligenz ist in aller Munde. Was damit gemeint ist, ist 
 
 t> Schau dir das Video an, wenn du jünger als 14 Jahre bist:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/unAdsyOZB9c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="plyr__video-embed" id="player">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/unAdsyOZB9c?origin=https://buch.informatik.cc&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-t> Schau dir das Video an, wenn du mindestens 14 Jahre bist:
+<figcaption>Video bei <a href="https://youtu.be/unAdsyOZB9c">YouTube</a> ansehen </figcaption>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3RsmRMqX2IY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+t> Schau dir das Video an, wenn du schon 14 Jahre oder älter bist:
+
+<div class="plyr__video-embed" id="player">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3RsmRMqX2IY?origin=https://buch.informatik.cc&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<figcaption>Video bei <a href="https://youtu.be/3RsmRMqX2IY">YouTube</a> ansehen </figcaption>
 
 ## Ziel dieses Kapitels
 
@@ -38,17 +46,26 @@ Machine Learning gliedert sich in drei große Bereiche:
 
 ![ms-1](img/ms-1.jpg)
 
-(Bild von [Iskender Dirik](https://id.vc/) und [Microsoft](https://news.microsoft.com/de-de/deep-learning-whitepaper/))
+
+<figcaption>
+Bild von [Iskender Dirik](https://id.vc/) und [Microsoft](https://news.microsoft.com/de-de/deep-learning-whitepaper/)
+</figcaption>
 
 Fairerweise muss gesagt werden, dass Unsupervised Learning nicht nur mit Katzen und Hunden funktioniert. So ist es etwa super spannend das Einkaufsverhalten in Online-Shops zu beobachten. Für einen Menschen das pure Chaos, aber für einen Rechner durchaus nachvollziehbar. Klar, dass jemand der Zahnpaste kauft vermutlich auch eine Zahnbürste kauft, aber was kaufen eigentlich Menschen die einen Panda-Blumentopf kaufen?
 
 ![amazon-1](img/amazon-1.png)
 
-(Screenshot von Amazon.de)
+<figcaption>
+Screenshot von amazon.de
+</figcaption>
 
 ## Geschichte der KI
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/09LotPHTZtU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="plyr__video-embed" id="player">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/09LotPHTZtU?origin=https://buch.informatik.cc&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<figcaption>Video bei <a href="https://youtu.be/09LotPHTZtU">YouTube</a> ansehen </figcaption>
 
 ## Wie das Gehirn lernt
 
@@ -56,4 +73,8 @@ i> In diesem Kapitel wird davon ausgegangen, dass bereits grundlegend bekannt is
 
 Hier ist eine kleine Wiederholung aus dem Biologieunterricht:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EGKTH60rvoU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="plyr__video-embed" id="player">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EGKTH60rvoU?origin=https://buch.informatik.cc&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<figcaption>Video bei <a href="https://youtu.be/EGKTH60rvoU">YouTube</a> ansehen </figcaption>

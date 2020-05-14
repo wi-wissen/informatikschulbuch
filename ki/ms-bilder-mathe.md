@@ -3,8 +3,9 @@
 Schauen wir uns genauer an, wie Bilder erkannt werden:
 
 ![ms-5](img/ms-5.jpg)
-
-(Bild von [Iskender Dirik](https://id.vc/) und [Microsoft](https://news.microsoft.com/de-de/deep-learning-whitepaper/))
+<figcaption>
+Bild von [Iskender Dirik](https://id.vc/) und [Microsoft](https://news.microsoft.com/de-de/deep-learning-whitepaper/)
+</figcaption>
 
 Es werden folgende Schritte durchgeführt:
 

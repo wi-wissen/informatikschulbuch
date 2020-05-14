@@ -18,7 +18,7 @@ Wie lernen wir als Mensch ein Brett- oder Videospiel zu spielen? Vielleicht beob
 Das Spiel folgt einfachen Schachregeln: Jede Spielfigur bewegt sich wie ein Bauer, d. h. sie kann nur vorwärts gehen und gegnerische Figuren nur diagonal schlagen. Eine Schülerin bzw. ein Schüler übernimmt die Äffchen und agiert als menschliche Spielerin bzw. menschlicher Spieler. Eine andere Schülerin bzw. ein anderer Schüler übernimmt die Rolle des Computers in Form der Krokodile.
 
 ![un-1](img/un-1.png)
-*Abb. 8: Mögliche Bewegungen einer* *Spielfigur*
+<figcaption>Abb. 8: Mögliche Bewegungen einer Spielfigur</figcaption>
 
 Eine Seite hat gewonnen, wenn sie es schafft
 
@@ -30,14 +30,14 @@ Eine Seite hat gewonnen, wenn sie es schafft
 
 
 ![un-2](img/un-2.png)
-*Abb. 9: Spielfeld vor Spielbeginn*
+<figcaption>Abb. 9: Spielfeld vor Spielbeginn </figcaption>
 
 Zur Vorbereitung werden Ausdrucke der Zugmöglichkeiten des Computers vor der Spielerin bzw. dem Spieler, der die Krokodile übernimmt, ausgebreitet. Dann werden Schokolinsen (oder andere farbige Tokens) auf diese Zugmöglichkeiten verteilt. Dabei legen Sie für jeden farbigen Pfeil die entsprechende Farbe als Token in den Bereich rechts der gezeigten Spielsituation (siehe Abb. 11).
 
 Die menschliche Spielerin bzw. der menschliche Spieler beginnt. Sie bzw. er kann sich frei gemäß der Spielregeln bewegen. Danach sind die Krokodile an der Reihe. Die Spielerin oder der Spieler vergleicht das aktuelle Spielfeld mit den Zugmöglichkeiten und wählt die passende Spielsituation aus den gegebenen Möglichkeiten aus. Zur schnelleren Orientierung ist jeweils angegeben, um welchen  Spielzug es sich handelt. In der ersten Runde müssen nur die beiden Möglichkeiten für Zug 1, in der zweiten Runde die 10 Spielzüge für Zug 2 und in Runde 3 die 7 Spielzüge für Zug 3 betrachtet werden. Dabei sind symmetrische Spiel- situationen nicht doppelt aufgeführt. Im Anschluss schließt sie bzw. er die Augen und zieht zufällig eines der neben der jeweiligen Spielsituation ausgelegten Tokens und verschiebt es auf die Zugvorgaben. Die Farbe des Tokens bestimmt, welcher Zug ausgeführt wird und   die   Spielerin   bzw.   der  Spieler bewegt die Spielfigur entsprechend des gleichfarbigen Pfeils. Wird beispielsweise ein rotes Token gezogen, wird das Krokodil dem roten Pfeil folgend bewegt.
 
  ![un-3](img/un-3.png)
-*Abb. 10: Krokodil wird entlang des roten* *Pfeils bewegt*
+ <figcaption>Krokodil wird entlang des roten Pfeils bewegt</figcaption>
 
 Dieses Vorgehen wird solange wiederholt, bis die Siegerin bzw. der Sieger der Spielrunde feststeht. Bevor eine neue Runde gespielt wird, passt der Computer nun seine Strategie wie folgt an:
 

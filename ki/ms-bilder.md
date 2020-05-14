@@ -3,14 +3,16 @@
 In diesen Beispiel lernen wir, wie wir Hunde von Katzen unterscheiden können.
 
 ![ms-3](img/ms-3.jpg)
-
-(Bild von [Iskender Dirik](https://id.vc/) und [Microsoft](https://news.microsoft.com/de-de/deep-learning-whitepaper/))
+<figcaption>
+Bild von [Iskender Dirik](https://id.vc/) und [Microsoft](https://news.microsoft.com/de-de/deep-learning-whitepaper/)
+</figcaption>
 
 Ganz grob können wir uns den Vorgang so vorstellen:
 
 ![ms-4](img/ms-4.jpg)
-
-(Bild von [Iskender Dirik](https://id.vc/) und [Microsoft](https://news.microsoft.com/de-de/deep-learning-whitepaper/))
+<figcaption>
+Bild von [Iskender Dirik](https://id.vc/) und [Microsoft](https://news.microsoft.com/de-de/deep-learning-whitepaper/)
+</figcaption>
 
 Wir haben Eingangsbilder die durch ein Neuronales Netz (du erinnerst dich an [das Video](https://youtu.be/cxCzhFVyUdw?t=46s)?) interpretiert werden. Dazu werden sehr viele kleine Entscheidungen getroffen. Anschließend stellt der Rechner eine Prognose. Dazu erhält er eine Rückmeldung, welche bestimmt, ob der die aktuelle Prognose beibehalten sollte oder nicht. Das wiederholen / trainieren wir so lange, bis wir mit der Genauigkeit zufrieden sind. 
 

@@ -10,7 +10,7 @@ in eine Zahlenfolge umgewandelt:
 
 Neben der Zahlenfolge ist die Konstante `-1`, welche für die BIAS-Berechnung benötigt wird. Der BIAS wird auch Schwellenwert genannt. 
 
-t> Arbeite die Schritte am besten gleich weiter mit. Dazu benötigst dazu das im letzten Schritt bereits ausgefüllte [Tabellenkalkulationsdokument](/knn/assets/convolutional_network.xlsx ':ignore') und kannst dann alle Schritte mitrechnen.
+t> Arbeite die Schritte am besten gleich weiter mit. Dazu benötigst dazu das im letzten Schritt bereits ausgefüllte [Tabellenkalkulationsdokument](/ki/assets/convolutional_network.xlsx ':ignore') und kannst dann alle Schritte mitrechnen.
 
 ## Fully Connected Layer
 
