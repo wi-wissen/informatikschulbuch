@@ -8,9 +8,9 @@ Probiere folgendes Beispiel aus:
 <b><i>Text :)</i></b>
 ```
 
-Wie funktioniert das? Du kannst dir vorstellen, dass jedes Element, was wir schreiben, eine Art Rechteck innerhalb der Webseite ist. In diesem Rechteck gelten ganz spezielle Regeln. Wie etwa in `<b></b>`,  dass Text fettgeschrieben werden muss. Ergänze ich nun innerhalb des `<b></b>`-Bereiches noch den `<i></i>`; Bereich, so gelten innerhalb diesen Bereiches zusätzlich noch die Regeln des `<b></b>`-Bereiches.
+Wie funktioniert das? Du kannst dir vorstellen, dass jedes Element, was wir schreiben, eine Art Rechteck innerhalb der Webseite ist. In diesem Rechteck gelten ganz spezielle Regeln. Wie etwa in `<b></b>`,  dass Text fettgeschrieben werden muss. Ergänze ich nun innerhalb des `<b></b>`-Bereiches noch den `<i></i>`; Bereich, so gelten innerhalb dieses Bereiches zusätzlich noch die Regeln des `<b></b>`-Bereiches.
 
-Das ist ähnlich wie bei Gesetzen. Erlässt die EU ein Gesetz, so  müssen sich alle Mitgliedsländer an dieses halten. Zusätzlich können sie aber Gesetze erlassen, welche nur für ihr Hoheitsgebiet gelten.
+Das ist ähnlich wie bei Gesetzen. Erlässt die EU ein Gesetz, so müssen sich alle Mitgliedsländer an dieses halten. Zusätzlich können sie aber Gesetze erlassen, welche nur für ihr Hoheitsgebiet gelten.
 
 t> Öffne in deinem Browser das Entwicklerwerkzeug Inspektor, (Firefox und Chrome: <kbd>Strg</kbd> + <kbd>Umschalt</kbd> + <kbd>C</kbd>) Nun kannst du über alle Elemente drüberfahren und siehst ihre Rechtecke. (Beenden mit Klick auf ein beliebiges Element)
 

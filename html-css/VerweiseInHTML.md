@@ -2,7 +2,7 @@
 
 In diesem Kapitel wollen wir uns ansehen, wie wir von formatiertem Text zu einer tatsächlichen Webseite gelangen. Dazu gehören auf jeden Fall das Setzen von Links und das Einbinden von Bildern.
 
-Dass wir beides in diesem Kapitel behandeln, ist kein Zufall. In beiden Fällen müssen wir den Browser nämlich anweisen noch eine weitere Datei zu betrachten. Entweder zeigen wir ihm die nächste HTML-Datei oder eine Bilddatei, die er gleich einbinden soll.
+Dass wir beides in diesem Kapitel behandeln, ist kein Zufall. In beiden Fällen müssen wir den Browser nämlich anweisen, noch eine weitere Datei zu betrachten. Entweder zeigen wir ihm die nächste HTML-Datei oder eine Bilddatei, die er gleich einbinden soll.
 
 i> Neben Bildern können wir auch Videos, Ton, PDF Dokumente und sogar ganze Karten einbinden, das sind aber schon kniffligere Themen.)
 
@@ -33,7 +33,7 @@ https://www.tagesschau.de/inland/digitalpakt-bundestag-101.html
 
 ### absolute Verweise
 
-Gibst du in deinen Browser einen Verweis, musst du immer die vollständige Adresse eingeben, damit dein Rechner weiß, wo er die Webseite herbekommen kann. Dadurch ist es egal, auf welcher Seite du vorher warst. Du kommst immer auf der neuen Adresse an. Das ist ähnlich einer Postanschrift. Hier ist es auch ganz egal, in welchen Briefkasten ich den Brief einwerfe.					
+Gibst du in deinen Browser einen Verweis ein, musst du immer die vollständige Adresse eingeben, damit dein Rechner weiß, wo er die Webseite herbekommen kann. Dadurch ist es egal, auf welcher Seite du vorher warst. Du kommst immer auf der neuen Adresse an. Das ist ähnlich einer Postanschrift. Hier ist es auch ganz egal, in welchen Briefkasten ich den Brief einwerfe.					
 
 ```
 https://apps.informatik.cc/html-css-js-editor/img/bird.jpg
@@ -71,11 +71,11 @@ Hier haben wir etwas Neues. Bisher kannten wir nur `<a>Informatik</a>`. Nun steh
 
 Da es den Link genauer beschreibt, sagt man auch, `href` ist eine Eigenschaft des Links. Bei HTML heißt Eigenschaft Attribut. `"https://informatik.cc/"` ist der Wert des Attributes (Attributwert), welcher in Anführungszeichen geschrieben wird.
 
-t> Notiere in deinem Hefter, was Attribute in HTML sind. Es könnte praktisch sein einen Link als Beispiel mit aufzuschreiben.
+t> Notiere in deinem Hefter, was Attribute in HTML sind. Es könnte praktisch sein, einen Link als Beispiel mit aufzuschreiben.
 
 ## Bilder
 
-Das Einbinden eines Bildes funktioniert ähnlich eines Links, nur dass hier nicht auf das Bild verwiesen wird, sondern es direkt in der HTML-Webseite angezeigt wird:
+Das Einbinden eines Bildes funktioniert ähnlich wie bei Links, nur dass hier nicht auf das Bild verwiesen wird, sondern es direkt in der HTML-Webseite angezeigt wird:
 
 ```html
 <img src="img/dog.jpg" alt="Dog" />

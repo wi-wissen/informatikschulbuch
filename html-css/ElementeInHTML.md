@@ -10,9 +10,9 @@ Um einen Bereich von einem anderen abzugrenzen, verwendest du sogenannte Tags:
 <h1>Überschrift 1</h1>
 ```
 
-In obigen Beispiel hast du eine Überschrift ausgezeichnet. Dabei markiert `<h1>` den Beginn der Überschrift und wird somit Starttag genannt. `</h1>` markiert das Ende des Tags und ist somit der Endtag.
+Im obigen Beispiel hast du eine Überschrift ausgezeichnet. Dabei markiert `<h1>` den Beginn der Überschrift und wird somit Starttag genannt. `</h1>` markiert das Ende des Tags und ist somit der Endtag.
 
-Sicher ist dir aufgefallen, dass sich Start- und Endtag nur durch den `/` unterscheiden. Dadurch behälst du ganz leicht den Überblick.  Die spitzen Klammern `<>` mit allem was darin steht werden nicht im Browser zu sehen sein und dienen nur als Orientierung für den Browser.
+Sicher ist dir aufgefallen, dass sich Start- und Endtag nur durch den `/` unterscheiden. Dadurch behälst du ganz leicht den Überblick.  Die spitzen Klammern `<>` mit allem was darin steht, werden nicht im Browser zu sehen sein und dienen nur als Anweisung für den Browser.
 
 t> [Aufgabe](https://eule27.de/t/i49qc)
 
