@@ -24,7 +24,7 @@ t> Öffne eine Nachrichtenseite und adaptiere das Vorgehen aus dem obigen Video.
 
 HTML - **H**yper**t**ext **M**arkup **L**anguage
 
-Hyptertext ist ein Text, der mit einer netzartigen Struktur von Objekten Informationen durch Querverweise (Hyperlinks) zwischen Hypertexten verknüpft.
+Hypertext ist ein Text, der mit einer netzartigen Struktur von Objekten Informationen durch Querverweise (Hyperlinks) zwischen Hypertexten verknüpft.
 
 Markup Language (Auszeichnungssprache) ist eine Sprache, die erklärt, wie etwas zu verstehen ist. Sie besitzt keinen eigenen Inhalt, sondern nur Metainformationen.
 
