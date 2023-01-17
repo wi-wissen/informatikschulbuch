@@ -1,6 +1,6 @@
 # Elemente in CSS
 
-Bisher sahen unsere Webseiten noch alle sehr gleich aus. Es wird Zeit frischen Wind reinzubringen und unsere Webseiten nach unseren Wünschen zu stylen!
+Bisher sahen unsere Webseiten noch alle sehr gleich aus. Es wird Zeit, frischen Wind reinzubringen und unsere Webseiten nach unseren Wünschen zu stylen!
 
 ## Grundlagen
 
@@ -18,7 +18,7 @@ h1 {
 
 t> Gib obiges Beispiel in den [Editor](https://eule27.de/t/C8Z8F) ein.					
 
-In obigen Beispiel wurde die Überschrift anstelle der vom Browser vorgeschlagenen schwarzen Farbe in grün geschrieben.
+In obigem Beispiel wurde die Überschrift anstelle der vom Browser vorgeschlagenen schwarzen Farbe in grün geschrieben.
 
 Dies liegt daran, dass wir in CSS die Eigenschaft `color` mit dem Eigenschaftswert `green` belegt haben. (Da green ein Schlüsselwort ist, muss es nicht, wie in ähnlichen Situationen, in Anführungszeichen gesetzt werden.
 
@@ -53,7 +53,7 @@ t> Übernimm das Beispiel in den [Editor](https://eule27.de/t/C8Z8F).
 
 t> Ändere die Farbe von grün auf rot.
 
-i> Besonders beim Programmieren mit JavaScript ist es wichtig genau ein eindeutiges Element anzusprechen. Dafür verwendet man `<h1 id="top">`, dies spricht man in CSS etwa mit `#top` an. Der Attributwert zu `id` muss auf der gesamten Seite eindeutig sein!
+i> Besonders beim Programmieren mit JavaScript ist es wichtig, genau ein eindeutiges Element anzusprechen. Dafür verwendet man `<h1 id="top">`, dies spricht man in CSS etwa mit `#top` an. Der Attributwert zu `id` muss auf der gesamten Seite eindeutig sein!
 
 
 
@@ -111,5 +111,5 @@ i> Folgendes Vorgehen ist praktisch, sofern du dein CSS nicht nur auf einer Seit
 <link href="css/style.css" rel="stylesheet">
 ```
 
-Hier wird für die CSS-Befehle eine extra Datei namens style.css im Unterordner css abgelgt. (Beachte das Kapitel Verweise in HTML!)
+Hier wird für die CSS-Befehle eine extra Datei namens style.css im Unterordner css abgelegt. (Beachte das Kapitel Verweise in HTML!)
 

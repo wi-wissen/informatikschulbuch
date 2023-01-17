@@ -1,6 +1,6 @@
 # Layout mit CSS
 
-<div class="alert alert-warning"><p>Für HTML und CSS werden neue Sprachversionen veröffentlicht. Hier kommen neue Funktionen dazu und neue verbindliche Sprachelemente werden definiert (Ein klein wenig wie ein neuer Duden oder die neue deutsche Rechtschreibung.).</p><p>Webbrowser unterstützen in verschiedenen Versionen verschiedene Sprachversionen und manchmal leider auch eigene Dialekte.</p><p>Die hier vorgestellte Lösung wird u.a. von Firefox ab Version 52, Chrome ab Version 57, Edge ab Version 16 und Safari ab Version 10.1 (alle im Frühjahr bis Sommer 2017 erscheinen) unterstützt. Ältere Browser oder etwa der Internet Explorer sprechen eigene Dialekte oder kennen die Funktion nicht.</p></div>
+<div class="alert alert-warning"><p>Für HTML und CSS werden neue Sprachversionen veröffentlicht. Hier kommen neue Funktionen dazu und neue verbindliche Sprachelemente werden definiert (Ein klein wenig wie ein neuer Duden oder die neue deutsche Rechtschreibung).</p><p>Webbrowser unterstützen in verschiedenen Versionen verschiedene Sprachversionen und manchmal leider auch eigene Dialekte.</p><p>Die hier vorgestellte Lösung wird u.a. von Firefox ab Version 52, Chrome ab Version 57, Edge ab Version 16 und Safari ab Version 10.1 (alle im Frühjahr bis Sommer 2017 erscheinen) unterstützt. Ältere Browser oder etwa der Internet Explorer sprechen eigene Dialekte oder kennen die Funktion nicht.</p></div>
 ## Das unsichtbare Netz
 
 ### [Flexbox](https://wiki.selfhtml.org/wiki/CSS/Eigenschaften/Flexbox)

@@ -4,7 +4,7 @@ CSS bietet ein Vielzahl an Befehlen. Hier soll dir nur ein Überblick über ausg
 
 Im Folgenden findest du zuerst eine Übersicht mit vielen Attributen und Attributwerten.
 
-Danach findest du wichtige Erklärungen zu nummerischen Angaben und Farben.
+Danach findest du wichtige Erklärungen zu numerischen Angaben und Farben.
 
 ## Übersicht
 
@@ -13,7 +13,7 @@ Danach findest du wichtige Erklärungen zu nummerischen Angaben und Farben.
 | Attribut      | Attributwerte                            |
 | ------------- | ---------------------------------------- |
 | `font-family` | `serif` (Serifenschrift), `sans-serif` (serifenlose Schrift)									Spezielle Schriftnamen gehen auch, diese sind aber nicht auf jeden Rechner installiert (`Times New Roman` nur auf Windows) |
-| `font-size`   | `xx-small`, `x-small`, `small`, `medium`, `large`, `x-large`, `xx-large`									nummerischer Wert |
+| `font-size`   | `xx-small`, `x-small`, `small`, `medium`, `large`, `x-large`, `xx-large`									numerischer Wert |
 | `color`       | Farbe                                    |
 
 t> [Aufgabe](https://eule27.de/t/8Vr8m)
@@ -42,7 +42,7 @@ Um hier als Experte agieren zu können, empfiehlt es sich diesen [Artikel](https
 | ---------------------- | ---------------------------------------- |
 | `border-style`         | `none` (kein Rahmen bzw. unsichtbarer Rahmen)<br /> `dotted` (gepunktet)<br /> `dashed` (gestrichelt)<br /> `solid` (durchgezogen)<br /> |
 | `border-color`         | Farbe                                    |
-| `border-width` | `thin` (dünn),<br /> `medium` (mittelstark),<br /> `thick` (dick)<br /> Nummerische Angabe |
+| `border-width` | `thin` (dünn),<br /> `medium` (mittelstark),<br /> `thick` (dick)<br /> Numerische Angabe |
 
 t> Wende die obigen Attribute auf den [gegebenen Text](https://eule27.de/t/np2Xo) an.
 
@@ -91,11 +91,11 @@ Die Farbe wird dabei je Grundfarbe angegeben: `rgb(153,68,0)`. Kürzer ist die A
 
 i> [Beispiel](https://eule27.de/t/3npzQ)
 
-## nummerische Angaben
+## numerische Angaben
 
 In HTML-Webseiten gibt es neben festgelegten Größen 3 verschiedene Maßeinheiten:
 
-Zahl in den Einheiten `px` (Pixel), `em` (x-fache Standartschriftgröße), `%` (von der Standartschriftgröße)
+Zahl in den Einheiten `px` (Pixel), `em` (x-fache Standardschriftgröße), `%` (von der Standardschriftgröße)
 
 i> [Beispiel](https://eule27.de/t/PVxvb)
 
